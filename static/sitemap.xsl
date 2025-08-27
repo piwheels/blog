@@ -8,20 +8,20 @@
   <xsl:template match="/">
   <html>
     <head>
-      <title>piwheels - Sitemap<xsl:if test="map:sitemapindex"> Index</xsl:if></title>
+      <title>piwheels blog - Sitemap<xsl:if test="map:sitemapindex"> Index</xsl:if></title>
       <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto" />
       <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto+Condensed" />
       <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto+Mono" />
-      <link rel="stylesheet" href="/styles.css" />
+      <link rel="stylesheet" href="https://www.piwheels.org/styles.css" />
     </head>
     <body>
       <header>
-        <a class="logo" href="/"><div></div><h1>piwheels</h1></a>
+        <a class="logo" href="https://www.piwheels.org/"><div></div><h1>piwheels</h1></a>
         <nav>
-          <a href="/packages.html">Search</a>
-          <a href="/faq.html">FAQ</a>
-          <a href="/json.html">API</a>
-          <a href="https://blog.piwheels.org/">Blog</a>
+          <a href="https://www.piwheels.org/packages.html">Search</a>
+          <a href="https://www.piwheels.org/faq.html">FAQ</a>
+          <a href="https://www.piwheels.org/json.html">API</a>
+          <a href="/" class="selected">Blog</a>
         </nav>
       </header>
 
@@ -45,7 +45,7 @@
         <nav>
           <a id="github" href="https://github.com/piwheels"><div></div>GitHub</a>
           <a id="readthedocs" href="https://piwheels.readthedocs.io/"><div></div>Docs</a>
-          <a id="twitter" href="https://twitter.com/piwheels"><div></div>Twitter</a>
+          <a id="mastodon" href="https://mastodon.social/@piwheels"><div></div>Mastodon</a>
         </nav>
         <p class="notices">piwheels is a community project by
           <a href="https://github.com/bennuttall">Ben Nuttall</a>
