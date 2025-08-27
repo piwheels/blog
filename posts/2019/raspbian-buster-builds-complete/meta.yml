@@ -1,3 +1,4 @@
+author: Ben Nuttall
 modified: '2019-07-18T18:25:39'
 published: '2019-07-18T18:25:38'
 slug: raspbian-buster-builds-complete
@@ -9,7 +10,7 @@ tags:
 - python-3-7
 - python-3-8
 - python-3-9
-- raspbian-bullseye
-- raspbian-buster
-- raspbian-jessie
+- bullseye
+- buster
+- jessie
 title: Raspbian Buster builds complete

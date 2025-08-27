@@ -1,8 +1,9 @@
+author: Ben Nuttall
 modified: '2020-05-29T13:28:37'
 published: '2020-05-28T10:18:08'
 slug: raspberry-pi-os-64-bit-aarch64
 tags:
 - aarch64
-- raspbian-buster
+- buster
 - updates
 title: Raspberry Pi OS 64-bit (aarch64)

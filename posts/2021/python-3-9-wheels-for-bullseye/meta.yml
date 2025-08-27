@@ -1,8 +1,9 @@
+author: Ben Nuttall
 modified: '2021-11-08T12:45:02'
 published: '2021-08-01T11:23:16'
 slug: python-3-9-wheels-for-bullseye
 tags:
-- debian-bullseye
+- bullseye
 - python-3-9
 - updates
 title: Python 3.9 wheels for Bullseye

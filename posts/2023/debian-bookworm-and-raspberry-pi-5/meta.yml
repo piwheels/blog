@@ -1,8 +1,9 @@
+author: Ben Nuttall
 modified: '2023-11-01T11:32:56'
 published: '2023-11-01T11:28:08'
 slug: debian-bookworm-and-raspberry-pi-5
 tags:
-- debian-bookworm
+- bookworm
 - python-3-11
 - virtualenv
 title: Debian Bookworm and Raspberry Pi 5

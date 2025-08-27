@@ -1,7 +1,8 @@
+author: Ben Nuttall
 modified: '2024-07-01T14:12:22'
 published: '2024-07-01T14:08:06'
 slug: debian-buster-eol
 tags:
-- debian-buster
+- buster
 - python-3-7
 title: Debian Buster EOL
