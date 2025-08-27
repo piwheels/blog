@@ -13,11 +13,13 @@
   <section metal:fill-slot="content">
     <div class="content">
       <h2>${title}</h2>
-      <div class="small-12 medium-8 columns" tal:repeat="post posts">
-        <time datetime="${post.published.isoformat(timespec='seconds')}" title="${post.published.isoformat(timespec='seconds')}">${post.published.strftime("%-d %B %Y")}</time> 
-        <h2><a href="/${post.link}">${post.title}</a></h2>
+      <div class="small-12 medium-8 columns post" tal:repeat="post posts">
+        <div class="postmeta">
+        <time datetime="${post.published.isoformat(timespec='seconds')}" title="${post.published.isoformat(timespec='seconds')}">${post.published.strftime("%-d %B %Y")}</time> by ${post.author}
+      </div>
+        <h3 class="title"><a href="/${post.link}">${post.title}</a></h3>
         <p tal:content="structure post.excerpt"></p>
-        <div class="callout primary">
+        <div class="callout primary tags">
           Tags: <a tal:repeat="tag post.tags" href="/tags/${tag}">${tag.replace("-", " ")}</a>
         </div>
       </div>
