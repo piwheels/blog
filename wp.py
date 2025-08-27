@@ -7,6 +7,7 @@ from bs4 import BeautifulSoup
 from pydantic import BaseModel, Field, model_validator
 from structlog import get_logger
 
+
 POSTS_DIR = Path(__file__).parent / "posts"
 POSTS_DIR.mkdir(exist_ok=True)
 
@@ -31,7 +32,12 @@ class Post(BaseModel):
         for value in self.class_list:
             parts = value.split("-")
             if parts[0] == "tag":
-                self.tags_list.append("-".join(parts[1:]))
+                tag = "-".join(parts[1:])
+                if "debian-" in tag:
+                    tag = tag.replace("debian-", "")
+                elif "raspbian-" in tag:
+                    tag = tag.replace("raspbian-", "")
+                self.tags_list.append(tag)
         return self
 
 
@@ -60,6 +66,7 @@ def save_post(post: Post):
         "published": post.published.isoformat(timespec="seconds"),
         "modified": post.modified.isoformat(timespec="seconds"),
         "tags": post.tags_list,
+        "author": "Ben Nuttall"
     }
     metadata_file = post_dir / "meta.yml"
     metadata_file.write_text(yaml.dump(metadata))
