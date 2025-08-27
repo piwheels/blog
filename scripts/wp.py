@@ -8,7 +8,7 @@ from pydantic import BaseModel, Field, model_validator
 from structlog import get_logger
 
 
-POSTS_DIR = Path(__file__).parent / "posts"
+POSTS_DIR = Path(__file__).parent.parent / "posts"
 POSTS_DIR.mkdir(exist_ok=True)
 
 logger = get_logger()

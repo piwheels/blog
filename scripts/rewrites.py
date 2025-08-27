@@ -40,7 +40,7 @@ def fetch_posts() -> list[Post]:
 
 
 def get_new_url(post: Post) -> str:
-    return f"/blog/{post.date.year}/{post.date.strftime('%m')}/{post.slug}/"
+    return f"/{post.date.year}/{post.date.strftime('%m')}/{post.slug}/"
 
 
 def make_post_rewrite_rule(post: Post) -> str:
@@ -56,7 +56,7 @@ def make_tag_rewrite_rule(tag: str) -> str:
         new_tag = tag.replace("raspbian-", "")
     else:
         new_tag = tag
-    return f"RewriteRule ^tag/{tag}/?$ /blog/tags/{new_tag}/ [R=301,L]"
+    return f"RewriteRule ^tag/{tag}/?$ /tags/{new_tag}/ [R=301,L]"
 
 
 if __name__ == "__main__":
