@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>https://blog.piwheels.org</loc>
+  </url>
+  <url>
+    <loc>https://blog.piwheels.org</loc>
+  </url>
+  <url>
+    <loc>https://blog.piwheels.org/archive</loc>
+  </url>
+  <url>
+    <loc>https://blog.piwheels.org/tags</loc>
+  </url>
+  <url tal:repeat="page pages">
+    <loc>https://blog.piwheels.org/${page.link}</loc>
+  </url>
+  <url tal:repeat="post posts">
+    <loc>https://blog.piwheels.org/${post.link}</loc>
+    <lastmod>${post.modified.isoformat(timespec="seconds")}</lastmod>
+  </url>
+  <url tal:repeat="tag tags">
+    <loc>https://blog.piwheels.org/tags/${tag}/</loc>
+  </url>
+  <url tal:repeat="year years">
+    <loc>https://blog.piwheels.org/${year}/</loc>
+  </url>
+  <url tal:repeat="(year, month) months">
+    <loc>https://blog.piwheels.org/${year}/${month}/</loc>
+  </url>
+</urlset>

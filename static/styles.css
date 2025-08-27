@@ -1,0 +1,27 @@
+h1, h1 a:link, h1 a:visited, h2 a:link, h2 a:visited {
+    color: #77777a;
+    text-decoration: none;
+}
+
+.postmeta {
+    display: block;
+    margin-bottom: 10px;
+    color: #77777a;
+    font-size: 0.8em;
+}
+
+.postmeta a {
+    color: #77777a;
+}
+
+.prev {
+    text-align: left;
+}
+
+.next {
+    text-align: right;
+}
+
+.twitter-tweet {
+    margin: 20px auto;
+}

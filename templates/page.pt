@@ -1,0 +1,10 @@
+<div metal:use-macro="layout">
+  <div metal:fill-slot="title" tal:omit-tag="1">404 &mdash; file not found</div>
+  <div metal:fill-slot="head" tal:omit-tag="1"></div>
+  <section metal:fill-slot="content">
+    <div class="content no-sidebar">
+      <h2 tal:content="structure page.title"></h2>
+      <p tal:content="structure page.html"></p>
+    </div>
+  </section>
+</div>
