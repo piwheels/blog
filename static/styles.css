@@ -34,11 +34,6 @@ h3.title {
   margin-bottom: 40px;
 }
 
-figure {
-  text-align: center;
-  margin: 20px 0;
-}
-
 pre > code {
   padding: 0;
 }
@@ -48,10 +43,27 @@ code {
   border: 0;
 }
 
-figure figcaption {
+figure {
+  margin: 20px 0;
+}
+
+figure.block-image {
+  display: table;
+  margin: 20px auto;
+}
+
+figure.block-image img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+figure.block-image figcaption {
+  display: table-caption;
+  caption-side: bottom;
   padding: 5px 2px;
-  background: #d7ecfa;
   text-align: center;
+  background: #d7ecfa;
   font-size: 14px;
   border: 0;
   border-top: 0;
