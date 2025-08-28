@@ -1,18 +1,18 @@
 <div metal:use-macro="layout">
   <div metal:fill-slot="head" tal:omit-tag="1">
     <meta name="description" content="Tags index for the piwheels blog" />
-    <meta property="og:url" content="https://bennuttall.com/tags/" />
-    <meta property="og:title" content="${html_title}" />
-    <meta property="og:description" content="${description}" />
-    <meta name="twitter:title" content="${html_title}" />
-    <meta name="twitter:description" content="${description}" />
+    <meta property="og:url" content="https://blog.piwheels.org/tags/" />
+    <meta property="og:title" content="Tags" />
+    <meta property="og:description" content="piwheels blog tags index" />
+    <meta name="twitter:title" content="Tags" />
+    <meta name="twitter:description" content="piwheels blog tags index" />
   </div>
 
-  <div metal:fill-slot="title" tal:omit-tag="1">${html_title}</div>
+  <div metal:fill-slot="title" tal:omit-tag="1">Tags</div>
 
   <section metal:fill-slot="content">
     <div class="content no-sidebar">
-      <h2>${title}</h2>
+      <h2>Tags</h2>
       <ul>
         <li tal:repeat="(tag, posts) tags.items()">
           <a href="/tags/${tag}/">${tag.replace("-", " ")}</a> (${len(posts)})

@@ -1,7 +1,7 @@
 <foo tal:omit-tag="1" metal:define-macro="layout"><!doctype html>
 <html class="no-js" lang="en" dir="ltr">
   <head>
-    <title>piwheels - <span metal:define-slot="title" /></title>
+    <title>piwheels blog - <span metal:define-slot="title" /></title>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="https://blog.piwheels.org/wp-content/themes/piwheels/foundation.min.css">
