@@ -1,34 +1,145 @@
+In the period of October — December 2021, **11,942,250** packages were downloaded from piwheels,
+bringing the total to **67,608,247**. This has saved **43 years** in the period, and **601 years**
+in total! There were **58,871,182** pip searches, **886,179** project page hits, **420,490** web
+page hits and **294,252** project JSON downloads in the period.
 
-<p>In the period of October – December 2021, <strong>11,942,250</strong> packages were downloaded from piwheels, bringing the total to <strong>67,608,247</strong>. This has saved <strong>43 years</strong> in the period, and <strong>601 years</strong> in total! There were <strong>58,871,182</strong> pip searches, <strong>886,179</strong> project page hits, <strong>420,490</strong> web page hits and <strong>294,252</strong> project JSON downloads in the period.</p>
-<div class="wp-block-image"><figure class="aligncenter size-full"><img sizes="auto, (max-width: 720px) 100vw, 720px" src="images/downloads-by-month.png"/></figure></div>
-<p>In the previous quarter, only 7 days surpassed <strong>100k</strong> downloads. In this period, most days did. 5 days surpassed <strong>200k</strong>, 3 surpassed <strong>250k</strong>, and one surpassed <strong>300k</strong>.</p>
-<div class="wp-block-image"><figure class="aligncenter size-full"><img sizes="auto, (max-width: 720px) 100vw, 720px" src="images/downloads-by-day.png"/></figure></div>
-<div class="wp-block-image"><figure class="aligncenter size-full"><img sizes="auto, (max-width: 720px) 100vw, 720px" src="images/searches-by-day.png"/></figure></div>
-<p>Downloads saved around between <strong>13</strong> and <strong>17</strong> years per month:</p>
-<div class="wp-block-image"><figure class="aligncenter size-full"><img sizes="auto, (max-width: 720px) 100vw, 720px" src="images/time-saved-by-month.png"/></figure></div>
-<p>The top 10 downloads were:</p>
-<ol class="wp-block-list"><li><strong><a href="https://www.piwheels.org/project/requests">requests</a></strong> (230,601)</li><li><strong><a href="https://www.piwheels.org/project/setuptools">setuptools</a></strong> (214,607)</li><li><strong><a href="https://www.piwheels.org/project/charset-normalizer">charset-normalizer</a></strong> (187,981)</li><li><strong><a href="https://www.piwheels.org/project/pyyaml">pyyaml</a></strong> (187,863)</li><li><strong><a href="https://www.piwheels.org/project/websocket-client">websocket-client</a></strong> (180,099)</li><li><strong><a href="https://www.piwheels.org/project/octoprint-firmwarecheck">octoprint-firmwarecheck</a></strong> (151,629)</li><li><strong><a href="https://www.piwheels.org/project/jinja2">jinja2</a></strong> (150,724)</li><li><strong><a href="https://www.piwheels.org/project/wheel">wheel</a></strong> (139,357)</li><li><strong><a href="https://www.piwheels.org/project/numpy">numpy</a></strong> (135,584)</li><li><strong><a href="https://www.piwheels.org/project/pigpio-dht">pigpio-dht</a></strong> (134,810)</li></ol>
-<p>The top 10 pip searches were:</p>
-<ol class="wp-block-list"><li><strong><a href="https://www.piwheels.org/project/pip">pip</a></strong> (4,755,985)</li><li><strong><a href="https://www.piwheels.org/project/wheel">wheel</a></strong> (3,410,977)</li><li><strong><a href="https://www.piwheels.org/project/setuptools">setuptools</a></strong> (1,717,821)</li><li><strong><a href="https://www.piwheels.org/project/future">future</a></strong> (946,503)</li><li><strong><a href="https://www.piwheels.org/project/pyngrok">pyngrok</a></strong> (835,140)</li><li><strong><a href="https://www.piwheels.org/project/youtube-dl">youtube-dl</a></strong> (678,269)</li><li><strong><a href="https://www.piwheels.org/project/requests">requests</a></strong> (631,481)</li><li><strong><a href="https://www.piwheels.org/project/six">six</a></strong> (527,637)</li><li><strong><a href="https://www.piwheels.org/project/pyyaml">pyyaml</a></strong> (525,629)</li><li><strong><a href="https://www.piwheels.org/project/urllib3">urllib3</a></strong> (512,396)</li></ol>
-<p>The top 10 project page hits were:</p>
-<ol class="wp-block-list"><li><strong><a href="https://www.piwheels.org/project/opencv-python">opencv-python</a></strong> (2,354)</li><li><strong><a href="https://www.piwheels.org/project/opencv-contrib-python">opencv-contrib-python</a></strong> (1,876)</li><li><strong><a href="https://www.piwheels.org/project/numpy">numpy</a></strong> (1,217)</li><li><strong><a href="https://www.piwheels.org/project/tensorflow">tensorflow</a></strong> (729)</li><li><strong><a href="https://www.piwheels.org/project/scipy">scipy</a></strong> (662)</li><li><strong><a href="https://www.piwheels.org/project/cryptography">cryptography</a></strong> (616)</li><li><strong><a href="https://www.piwheels.org/project/pandas">pandas</a></strong> (516)</li><li><strong><a href="https://www.piwheels.org/project/pillow">pillow</a></strong> (438)</li><li><strong><a href="https://www.piwheels.org/project/grpcio">grpcio</a></strong> (399)</li><li><strong><a href="https://www.piwheels.org/project/pyyaml">pyyaml</a></strong> (362)</li></ol>
-<p>The top 10 project JSON downloads were:</p>
-<ol class="wp-block-list"><li><strong><a href="https://www.piwheels.org/project/awscrt">awscrt</a></strong> (21,132)</li><li><strong><a href="https://www.piwheels.org/project/numpy">numpy</a></strong> (157)</li><li><strong><a href="https://www.piwheels.org/project/opencv-contrib-python">opencv-contrib-python</a></strong> (131)</li><li><strong><a href="https://www.piwheels.org/project/pyzmq">pyzmq</a></strong> (113)</li><li><strong><a href="https://www.piwheels.org/project/opencv-python">opencv-python</a></strong> (101)</li><li><strong><a href="https://www.piwheels.org/project/protobuf">protobuf</a></strong> (88)</li><li><strong><a href="https://www.piwheels.org/project/scipy">scipy</a></strong> (77)</li><li><strong><a href="https://www.piwheels.org/project/obs-streamdeck-controls">obs-streamdeck-controls</a></strong> (72)</li><li><strong><a href="https://www.piwheels.org/project/pname">pname</a></strong> (69)</li><li><strong><a href="https://www.piwheels.org/project/keras-models">keras-models</a></strong> (66)</li></ol>
-<p>See the <a href="https://www.piwheels.org/json.html">JSON API</a> page for more information on using this API.</p>
-<h2 class="wp-block-heading">Platforms</h2>
-<p>Linux makes up over 99.9% of all searches so I've discounted the rest. Raspberry Pi OS and Debian are now combined (due to Raspberry Pi OS identifying itself as Debian). This group obviously dominates with over 98%. Ubuntu remains in third place with only 0.7%, although we don't officially support it.</p>
-<div class="wp-block-image"><figure class="aligncenter size-full"><img sizes="auto, (max-width: 720px) 100vw, 720px" src="images/distro-usage.png"/></figure></div>
-<p>The latest OS release, Bullseye, has taken a sizeable chunk of the share (25%), but it's far from taking over Buster (68%), due to <a href="https://www.raspberrypi.com/news/new-old-functionality-with-raspberry-pi-os-legacy/">compatibility issues</a> with e.g. picamera. Stretch has dropped to under 7% and there's practically no Jessie usage.</p>
-<div class="wp-block-image"><figure class="aligncenter size-full"><img sizes="auto, (max-width: 720px) 100vw, 720px" src="images/debian-usage.png"/></figure></div>
-<p>armv7l (Pi 2/3/4 – and now Zero 2) is still a majority architecture with 95% of searches from Arm devices (89% of which is from armv7l). Last quarter we saw more hits from aarch64 users than x86_64 and armv6l combined, but this spike has diminished, although aarch64 still (just) beats armv6l, with 4.6% to 3.5%:</p>
-<div class="wp-block-image"><figure class="aligncenter size-full"><img sizes="auto, (max-width: 720px) 100vw, 720px" src="images/arch.png"/></figure></div>
-<p>Python 3 has an overwhelming majority of usage (88%), and 3.7 (the version provided by Buster) has the highest share with 54%. Bullseye's Python 3.9 now comes second with 24% and Python 2.7 comes third with 15%:</p>
-<div class="wp-block-image"><figure class="aligncenter size-full"><img sizes="auto, (max-width: 720px) 100vw, 720px" src="images/py-vers.png"/></figure></div>
-<p>We're also logging pip and setuptools versions:</p>
-<div class="wp-block-image"><figure class="aligncenter size-full"><img sizes="auto, (max-width: 720px) 100vw, 720px" src="images/pip-vers.png"/></figure></div>
-<div class="wp-block-image"><figure class="aligncenter size-full"><img sizes="auto, (max-width: 720px) 100vw, 720px" src="images/setuptools-vers.png"/></figure></div>
-<p>We see over <strong>5TB</strong> of bandwidth each month, peaking at <strong>5.54TB</strong> in November. The breakdown of bandwidth in the period is 79% pip downloads, 2.5% pip searches, a tiny amount (0.09%) of website traffic (project pages, JSON, etc) and the rest (surprisingly high, 17.5%) comprising mostly of direct wheel downloads not from pip (e.g. browsers):</p>
-<figure class="wp-block-image size-full"><img sizes="auto, (max-width: 720px) 100vw, 720px" src="images/bandwidth.png"/></figure>
-<p>And broken down by month:</p>
-<figure class="wp-block-image size-full"><img sizes="auto, (max-width: 720px) 100vw, 720px" src="images/bandwidth-by-month-1.png"/></figure>
-<p>Check out the source of this post in a Jupyter notebook: <a href="https://github.com/piwheels/stats/blob/master/2021q4.ipynb">github.com/piwheels/stats/blob/master/2021q4.ipynb</a></p>
+<figure class="aligncenter size-full">
+<img src="images/downloads-by-month.png" />
+</figure>
+
+In the previous quarter, only 7 days surpassed **100k** downloads. In this period, most days did. 5
+days surpassed **200k**, 3 surpassed **250k**, and one surpassed **300k**.
+
+<figure class="aligncenter size-full">
+<img src="images/downloads-by-day.png" />
+</figure>
+
+<figure class="aligncenter size-full">
+<img src="images/searches-by-day.png" />
+</figure>
+
+Downloads saved around between **13** and **17** years per month:
+
+<figure class="aligncenter size-full">
+<img src="images/time-saved-by-month.png" />
+</figure>
+
+The top 10 downloads were:
+
+1.  **[requests](https://www.piwheels.org/project/requests)** (230,601)
+2.  **[setuptools](https://www.piwheels.org/project/setuptools)** (214,607)
+3.  **[charset-normalizer](https://www.piwheels.org/project/charset-normalizer)** (187,981)
+4.  **[pyyaml](https://www.piwheels.org/project/pyyaml)** (187,863)
+5.  **[websocket-client](https://www.piwheels.org/project/websocket-client)** (180,099)
+6.  **[octoprint-firmwarecheck](https://www.piwheels.org/project/octoprint-firmwarecheck)**
+    (151,629)
+7.  **[jinja2](https://www.piwheels.org/project/jinja2)** (150,724)
+8.  **[wheel](https://www.piwheels.org/project/wheel)** (139,357)
+9.  **[numpy](https://www.piwheels.org/project/numpy)** (135,584)
+10. **[pigpio-dht](https://www.piwheels.org/project/pigpio-dht)** (134,810)
+
+The top 10 pip searches were:
+
+1.  **[pip](https://www.piwheels.org/project/pip)** (4,755,985)
+2.  **[wheel](https://www.piwheels.org/project/wheel)** (3,410,977)
+3.  **[setuptools](https://www.piwheels.org/project/setuptools)** (1,717,821)
+4.  **[future](https://www.piwheels.org/project/future)** (946,503)
+5.  **[pyngrok](https://www.piwheels.org/project/pyngrok)** (835,140)
+6.  **[youtube-dl](https://www.piwheels.org/project/youtube-dl)** (678,269)
+7.  **[requests](https://www.piwheels.org/project/requests)** (631,481)
+8.  **[six](https://www.piwheels.org/project/six)** (527,637)
+9.  **[pyyaml](https://www.piwheels.org/project/pyyaml)** (525,629)
+10. **[urllib3](https://www.piwheels.org/project/urllib3)** (512,396)
+
+The top 10 project page hits were:
+
+1.  **[opencv-python](https://www.piwheels.org/project/opencv-python)** (2,354)
+2.  **[opencv-contrib-python](https://www.piwheels.org/project/opencv-contrib-python)** (1,876)
+3.  **[numpy](https://www.piwheels.org/project/numpy)** (1,217)
+4.  **[tensorflow](https://www.piwheels.org/project/tensorflow)** (729)
+5.  **[scipy](https://www.piwheels.org/project/scipy)** (662)
+6.  **[cryptography](https://www.piwheels.org/project/cryptography)** (616)
+7.  **[pandas](https://www.piwheels.org/project/pandas)** (516)
+8.  **[pillow](https://www.piwheels.org/project/pillow)** (438)
+9.  **[grpcio](https://www.piwheels.org/project/grpcio)** (399)
+10. **[pyyaml](https://www.piwheels.org/project/pyyaml)** (362)
+
+The top 10 project JSON downloads were:
+
+1.  **[awscrt](https://www.piwheels.org/project/awscrt)** (21,132)
+2.  **[numpy](https://www.piwheels.org/project/numpy)** (157)
+3.  **[opencv-contrib-python](https://www.piwheels.org/project/opencv-contrib-python)** (131)
+4.  **[pyzmq](https://www.piwheels.org/project/pyzmq)** (113)
+5.  **[opencv-python](https://www.piwheels.org/project/opencv-python)** (101)
+6.  **[protobuf](https://www.piwheels.org/project/protobuf)** (88)
+7.  **[scipy](https://www.piwheels.org/project/scipy)** (77)
+8.  **[obs-streamdeck-controls](https://www.piwheels.org/project/obs-streamdeck-controls)** (72)
+9.  **[pname](https://www.piwheels.org/project/pname)** (69)
+10. **[keras-models](https://www.piwheels.org/project/keras-models)** (66)
+
+See the [JSON API](https://www.piwheels.org/json.html) page for more information on using this API.
+
+## Platforms
+
+Linux makes up over 99.9% of all searches so I've discounted the rest. Raspberry Pi OS and Debian
+are now combined (due to Raspberry Pi OS identifying itself as Debian). This group obviously
+dominates with over 98%. Ubuntu remains in third place with only 0.7%, although we don't officially
+support it.
+
+<figure class="aligncenter size-full">
+<img src="images/distro-usage.png" />
+</figure>
+
+The latest OS release, Bullseye, has taken a sizeable chunk of the share (25%), but it's far from
+taking over Buster (68%), due to [compatibility
+issues](https://www.raspberrypi.com/news/new-old-functionality-with-raspberry-pi-os-legacy/) with
+e.g. picamera. Stretch has dropped to under 7% and there's practically no Jessie usage.
+
+<figure class="aligncenter size-full">
+<img src="images/debian-usage.png" />
+</figure>
+
+armv7l (Pi 2/3/4 — and now Zero 2) is still a majority architecture with 95% of searches from Arm
+devices (89% of which is from armv7l). Last quarter we saw more hits from aarch64 users than x86_64
+and armv6l combined, but this spike has diminished, although aarch64 still (just) beats armv6l, with
+4.6% to 3.5%:
+
+<figure class="aligncenter size-full">
+<img src="images/arch.png" />
+</figure>
+
+Python 3 has an overwhelming majority of usage (88%), and 3.7 (the version provided by Buster) has
+the highest share with 54%. Bullseye's Python 3.9 now comes second with 24% and Python 2.7 comes
+third with 15%:
+
+<figure class="aligncenter size-full">
+<img src="images/py-vers.png" />
+</figure>
+
+We're also logging pip and setuptools versions:
+
+<figure class="aligncenter size-full">
+<img src="images/pip-vers.png" />
+</figure>
+
+<figure class="aligncenter size-full">
+<img src="images/setuptools-vers.png" />
+</figure>
+
+We see over **5TB** of bandwidth each month, peaking at **5.54TB** in November. The breakdown of
+bandwidth in the period is 79% pip downloads, 2.5% pip searches, a tiny amount (0.09%) of website
+traffic (project pages, JSON, etc) and the rest (surprisingly high, 17.5%) comprising mostly of
+direct wheel downloads not from pip (e.g. browsers):
+
+<figure class="wp-block-image size-full">
+<img src="images/bandwidth.png" />
+</figure>
+
+And broken down by month:
+
+<figure class="wp-block-image size-full">
+<img src="images/bandwidth-by-month-1.png" />
+</figure>
+
+Check out the source of this post in a Jupyter notebook:
+[github.com/piwheels/stats/blob/master/2021q4.ipynb](https://github.com/piwheels/stats/blob/master/2021q4.ipynb)

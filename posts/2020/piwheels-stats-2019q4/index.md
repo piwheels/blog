@@ -1,16 +1,56 @@
+In the period of October — December 2019, **2,945,938** packages were downloaded from piwheels,
+bringing the total to **14,745,528**. This has saved **49 years** in the period, and **172 years**
+in total!
 
-<p>In the period of October – December 2019, <strong>2,945,938</strong> packages were downloaded from piwheels, bringing the total to <strong>14,745,528</strong>. This has saved <strong>49 years</strong> in the period, and <strong>172 years</strong> in total!</p>
-<p>Each month had around a million downloads:</p>
-<div class="wp-block-image"><figure class="aligncenter size-large"><img sizes="auto, (max-width: 623px) 100vw, 623px" src="images/downloads-2019q4.png"/></figure></div>
-<p>which saved around between 13 and 18 years per month:</p>
-<div class="wp-block-image"><figure class="aligncenter size-large"><img sizes="auto, (max-width: 617px) 100vw, 617px" src="images/time-saved-2019q4.png"/></figure></div>
-<p><strong>4 December</strong> had the highest (ever) number of downloads with <strong>39,153</strong>.</p>
-<p>The top 10 downloads were:</p>
-<ol class="wp-block-list"><li><strong><a href="https://www.piwheels.org/project/pycparser">pycparser</a></strong> (156,319)</li><li><strong><a href="https://www.piwheels.org/project/numpy">numpy</a></strong> (78,388)</li><li><strong><a href="https://www.piwheels.org/project/PyYAML">PyYAML</a></strong> (64,732)</li><li><strong><a href="https://www.piwheels.org/project/cffi">cffi</a></strong> (59,786)</li><li><strong><a href="https://www.piwheels.org/project/cryptography">cryptography</a></strong> (49,101)</li><li><strong><a href="https://www.piwheels.org/project/opencv-python">opencv-python</a></strong> (47,531)</li><li><strong><a href="https://www.piwheels.org/project/paho-mqtt">paho-mqtt</a></strong> (46,780)</li><li><strong><a href="https://www.piwheels.org/project/future">future</a></strong> (43,206)</li><li><strong><a href="https://www.piwheels.org/project/MarkupSafe">MarkupSafe</a></strong> (42,008)</li><li><strong><a href="https://www.piwheels.org/project/tensorflow">tensorflow</a></strong> (41,725)</li></ol>
-<p>Raspbian still dominates usage with over 95%:</p>
-<div class="wp-block-image"><figure class="aligncenter size-large"><img sizes="auto, (max-width: 382px) 100vw, 382px" src="images/os-2019q4.png"/></figure></div>
-<p>armv7l (Pi 2/3/4 platform) is still a majority architecture with over 90% usage, with armv6l (Pi 1/Zero) taking just 8.2%. The combined Arm architecture takes over 98% of all usage:</p>
-<div class="wp-block-image"><figure class="aligncenter size-large"><img sizes="auto, (max-width: 365px) 100vw, 365px" src="images/arch-2019q4.png"/></figure></div>
-<p>Python version usage changes more over time. Since Raspbian Buster was released, Python 3.7 usage quickly overtook Python 3.5:</p>
-<div class="wp-block-image"><figure class="aligncenter size-large"><img sizes="auto, (max-width: 352px) 100vw, 352px" src="images/pyver-2019q4.png"/></figure></div>
-<p>This was the busiest period for piwheels so far. We're now seeing 30k+ download days almost every day, and kept up a 1 million downloads in a 30 day period for several weeks leading up to Christmas day, where it dipped slightly. I'm sure we'll see a continuation of this in January. The new record of 39k downloads in a single day shows we're likely to break to 40k mark before too long, and if trends continue we might see this become a new regular daily number.</p>
+Each month had around a million downloads:
+
+<figure class="aligncenter size-large">
+<img src="images/downloads-2019q4.png" />
+</figure>
+
+which saved around between 13 and 18 years per month:
+
+<figure class="aligncenter size-large">
+<img src="images/time-saved-2019q4.png" />
+</figure>
+
+**4 December** had the highest (ever) number of downloads with **39,153**.
+
+The top 10 downloads were:
+
+1.  **[pycparser](https://www.piwheels.org/project/pycparser)** (156,319)
+2.  **[numpy](https://www.piwheels.org/project/numpy)** (78,388)
+3.  **[PyYAML](https://www.piwheels.org/project/PyYAML)** (64,732)
+4.  **[cffi](https://www.piwheels.org/project/cffi)** (59,786)
+5.  **[cryptography](https://www.piwheels.org/project/cryptography)** (49,101)
+6.  **[opencv-python](https://www.piwheels.org/project/opencv-python)** (47,531)
+7.  **[paho-mqtt](https://www.piwheels.org/project/paho-mqtt)** (46,780)
+8.  **[future](https://www.piwheels.org/project/future)** (43,206)
+9.  **[MarkupSafe](https://www.piwheels.org/project/MarkupSafe)** (42,008)
+10. **[tensorflow](https://www.piwheels.org/project/tensorflow)** (41,725)
+
+Raspbian still dominates usage with over 95%:
+
+<figure class="aligncenter size-large">
+<img src="images/os-2019q4.png" />
+</figure>
+
+armv7l (Pi 2/3/4 platform) is still a majority architecture with over 90% usage, with armv6l (Pi
+1/Zero) taking just 8.2%. The combined Arm architecture takes over 98% of all usage:
+
+<figure class="aligncenter size-large">
+<img src="images/arch-2019q4.png" />
+</figure>
+
+Python version usage changes more over time. Since Raspbian Buster was released, Python 3.7 usage
+quickly overtook Python 3.5:
+
+<figure class="aligncenter size-large">
+<img src="images/pyver-2019q4.png" />
+</figure>
+
+This was the busiest period for piwheels so far. We're now seeing 30k+ download days almost every
+day, and kept up a 1 million downloads in a 30 day period for several weeks leading up to Christmas
+day, where it dipped slightly. I'm sure we'll see a continuation of this in January. The new
+record of 39k downloads in a single day shows we're likely to break to 40k mark before too long,
+and if trends continue we might see this become a new regular daily number.

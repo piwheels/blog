@@ -1,16 +1,55 @@
+In the period of July — September 2019, **2,414,682** packages were downloaded from piwheels,
+bringing the total to **11,799,590**. This has saved **29 years** in the period, and **123 years**
+in total!
 
-<p>In the period of July – September 2019, <strong>2,414,682</strong> packages were downloaded from piwheels, bringing the total to <strong>11,799,590</strong>. This has saved <strong>29 years</strong> in the period, and <strong>123 years</strong> in total!</p>
-<p>Each month had around 800,000 downloads:</p>
-<figure class="wp-block-image"><img sizes="auto, (max-width: 393px) 100vw, 393px" src="images/q3_downloads.png"/></figure>
-<p>which saved around between 7 and 11 years per month:</p>
-<figure class="wp-block-image"><img sizes="auto, (max-width: 382px) 100vw, 382px" src="images/q3_time_saved.png"/></figure>
-<p><strong>18 July</strong> had the highest (ever) number of downloads with <strong>36,275</strong>.</p>
-<p>The top 10 downloads were:</p>
-<ol class="wp-block-list"><li><a href="https://www.piwheels.org/project/pycparser">pycparser</a> (156,507)</li><li><a href="https://www.piwheels.org/project/numpy">numpy</a> (76,970)</li><li><a href="https://www.piwheels.org/project/PyYAML">PyYAML</a> (65,887)</li><li><a href="https://www.piwheels.org/project/cffi">cffi</a> (56,522)</li><li><a href="https://www.piwheels.org/project/tensorflow">tensorflow</a> (49,508)</li><li><a href="https://www.piwheels.org/project/cryptography">cryptography</a> (48,071)</li><li><a href="https://www.piwheels.org/project/MarkupSafe">MarkupSafe</a> (44,944)</li><li><a href="https://www.piwheels.org/project/future">future</a> (42,133)</li><li><a href="https://www.piwheels.org/project/homeassistantfrontend">home-assistant-frontend</a> (38,750)</li><li><a href="https://www.piwheels.org/project/pahomqtt">paho-mqtt</a> (36,273)</li></ol>
-<p>Raspbian still dominates usage with over 94%:</p>
-<div class="wp-block-image"><figure class="aligncenter"><img src="images/q3_oss.png"/></figure></div>
-<p>armv7l (Pi 2/3 platform) is still a majority architecture with almost 90% usage, with armv6l (Pi 1/Zero) taking just 8.1%. The combined Arm architecture takes nearly 92% of all usage:</p>
-<div class="wp-block-image"><figure class="aligncenter"><img src="images/q3_arch.png"/></figure></div>
-<p>Python version usage changes more over time. As Raspbian Buster was released during the month of July, Python 3.7 usage quickly overtook Python 3.5:</p>
-<div class="wp-block-image"><figure class="aligncenter"><img src="images/q3_py_vers.png"/></figure></div>
-<p>This was the busiest period for piwheels so far, due to the launch of Pi 4 and Raspbian Buster (introducing Python 3.7), as detailed in <a href="https://blog.piwheels.org/raspberry-pi-4-and-raspbian-buster/">these</a> <a href="https://blog.piwheels.org/raspbian-buster-builds-complete/">posts</a>.</p>
+Each month had around 800,000 downloads:
+
+<figure class="wp-block-image">
+<img src="images/q3_downloads.png" />
+</figure>
+
+which saved around between 7 and 11 years per month:
+
+<figure class="wp-block-image">
+<img src="images/q3_time_saved.png" />
+</figure>
+
+**18 July** had the highest (ever) number of downloads with **36,275**.
+
+The top 10 downloads were:
+
+1.  [pycparser](https://www.piwheels.org/project/pycparser) (156,507)
+2.  [numpy](https://www.piwheels.org/project/numpy) (76,970)
+3.  [PyYAML](https://www.piwheels.org/project/PyYAML) (65,887)
+4.  [cffi](https://www.piwheels.org/project/cffi) (56,522)
+5.  [tensorflow](https://www.piwheels.org/project/tensorflow) (49,508)
+6.  [cryptography](https://www.piwheels.org/project/cryptography) (48,071)
+7.  [MarkupSafe](https://www.piwheels.org/project/MarkupSafe) (44,944)
+8.  [future](https://www.piwheels.org/project/future) (42,133)
+9.  [home-assistant-frontend](https://www.piwheels.org/project/homeassistantfrontend) (38,750)
+10. [paho-mqtt](https://www.piwheels.org/project/pahomqtt) (36,273)
+
+Raspbian still dominates usage with over 94%:
+
+<figure class="aligncenter">
+<img src="images/q3_oss.png" />
+</figure>
+
+armv7l (Pi 2/3 platform) is still a majority architecture with almost 90% usage, with armv6l (Pi
+1/Zero) taking just 8.1%. The combined Arm architecture takes nearly 92% of all usage:
+
+<figure class="aligncenter">
+<img src="images/q3_arch.png" />
+</figure>
+
+Python version usage changes more over time. As Raspbian Buster was released during the month of
+July, Python 3.7 usage quickly overtook Python 3.5:
+
+<figure class="aligncenter">
+<img src="images/q3_py_vers.png" />
+</figure>
+
+This was the busiest period for piwheels so far, due to the launch of Pi 4 and Raspbian Buster
+(introducing Python 3.7), as detailed in
+[these](https://blog.piwheels.org/raspberry-pi-4-and-raspbian-buster/)
+[posts](https://blog.piwheels.org/raspbian-buster-builds-complete/).

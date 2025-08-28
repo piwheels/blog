@@ -1,6 +1,7 @@
 from datetime import datetime
 from pathlib import Path
 
+import pypandoc
 import requests
 import yaml
 from bs4 import BeautifulSoup
@@ -87,7 +88,7 @@ def save_post(post: Post):
                     del img_tag[attr]
         else:
             logger.warn("Skipping non-http image", src=source)
-        for attr in ("alt", "class", "decoding", "height", "loading", "width"):
+        for attr in ("alt", "class", "decoding", "height", "loading", "width", "sizes"):
             if attr in img_tag.attrs:
                 del img_tag[attr]
 
@@ -113,7 +114,14 @@ def save_post(post: Post):
     }
     for a, b in replacements.items():
         html = html.replace(a, b)
-    post_file.write_text(html)
+
+    markdown = pypandoc.convert_text(
+        html,
+        "markdown+fenced_code_blocks",
+        format="html",
+        extra_args=["—wrap=auto", "—columns=100"]
+    ).replace("\\'", "'")
+    post_file.write_text(markdown)
 
 
 if __name__ == "__main__":
