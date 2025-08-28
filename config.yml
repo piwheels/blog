@@ -1,0 +1,4 @@
+posts_dir: posts
+static_dir: static
+templates_dir: templates
+output_dir: www
