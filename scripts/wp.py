@@ -119,7 +119,7 @@ def save_post(post: Post):
         html,
         "markdown+fenced_code_blocks",
         format="html",
-        extra_args=["—wrap=auto", "—columns=100"]
+        extra_args=["--wrap=auto", "--columns=100"]
     ).replace("\\'", "'")
     post_file.write_text(markdown)
 
