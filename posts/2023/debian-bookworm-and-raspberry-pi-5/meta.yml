@@ -6,4 +6,5 @@ tags:
 - bookworm
 - python-3-11
 - virtualenv
+- raspberry-pi-5
 title: Debian Bookworm and Raspberry Pi 5
