@@ -33,3 +33,41 @@ h3.title {
 .post {
   margin-bottom: 40px;
 }
+
+figure.aligncenter {
+  text-align: center;
+  margin: 20px 0;
+}
+
+pre > code {
+  padding: 0;
+}
+
+code {
+  background-color: transparent;
+  border: 0;
+}
+
+figure figcaption {
+  padding: 5px 2px;
+  background: #d7ecfa;
+  text-align: center;
+  font-size: 14px;
+  border: 0;
+  border-top: 0;
+  color: black;
+}
+
+pre, blockquote {
+  background: #f0f8ff;
+  margin: 1em 2em;
+  padding: 1em;
+}
+
+blockquote p {
+  font-style: italic;
+}
+
+blockquote p:last-of-type {
+  margin-bottom: 0;
+}
