@@ -6,13 +6,13 @@ turned out to be an upgrade pushed to [octoprint](https://octoprint.org/) users.
 
 Each month had around **1.1 million** downloads:
 
-<figure class="aligncenter size-large">
+<figure class="block-image">
 <img src="images/downloads-by-month.png" />
 </figure>
 
 which saved around between **17** and **22 years** per month:
 
-<figure class="aligncenter size-large">
+<figure class="block-image">
 <img src="images/time-saved-by-month.png" />
 </figure>
 
@@ -21,7 +21,7 @@ March** with a whopping **60,324**. This was the second day of the spike caused 
 next two weeks dropped steadily each day, but left regular daily downloads around 40k, which is
 5-10k greater than usual.
 
-<figure class="aligncenter size-large">
+<figure class="block-image">
 <img src="images/downloads-by-day.png" />
 </figure>
 
@@ -54,21 +54,21 @@ It's still unexplained why Flask-Login got nearly double the downloads of the ot
 
 Raspbian still dominates usage with almost 95%:
 
-<figure class="aligncenter size-large">
+<figure class="block-image">
 <img src="images/os-usage.png" />
 </figure>
 
 armv7l (Pi 2/3/4 platform) is still a majority architecture with 89% usage, with armv6l (Pi 1/Zero)
 taking just 8%. The combined Arm architecture takes over 97% of all usage:
 
-<figure class="aligncenter size-large">
+<figure class="block-image">
 <img src="images/arch.png" />
 </figure>
 
 Python version usage changes more over time. Since Raspbian Buster was released, Python 3.7 usage
 quickly overtook Python 3.5:
 
-<figure class="aligncenter size-large">
+<figure class="block-image">
 <img src="images/py-vers.png" />
 </figure>
 
@@ -76,7 +76,7 @@ Interestingly, there appears to have been a spike in usage of Python 2.7. Howeve
 down to the octoprint upgrades. The four packages affected are universal Python wheels, so they work
 with 2 and 3.
 
-<figure class="wp-block-image size-large">
+<figure class="block-image">
 <img src="images/py-vers-over-time.png" />
 </figure>
 

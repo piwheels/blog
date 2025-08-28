@@ -8,14 +8,14 @@ the previous highest.
 This continued rising. 5 March saw another new record of **60,324**. 6 March saw slightly less at
 **52,879**.
 
-<figure class="wp-block-image size-large">
+<figure class="block-image">
 <img src="images/downloads-by-day.png" />
 </figure>
 
 Broken down by the hour, you can see each day's bell curve, and the massive increase during those
 three days:
 
-<figure class="wp-block-image size-large">
+<figure class="block-image">
 <img src="images/downloads-by-hour.png" />
 </figure>
 
@@ -24,13 +24,13 @@ three days:
 Looking at the top 10 most downloaded packages on 3 March, the day before the spike started, you can
 see **pycparser** topped the bill with **1,908** downloads, followed by **numpy** with **896**:
 
-<figure class="wp-block-image size-large">
+<figure class="block-image">
 <img src="images/top-10-3march-1.png" />
 </figure>
 
 Here are the top 10 on 5 March, on the same scale:
 
-<figure class="wp-block-image size-large">
+<figure class="block-image">
 <img src="images/top-10-5march-1.png" />
 </figure>
 
@@ -45,7 +45,7 @@ Unexpectedly, four packages appear at the top, overshadowing the usual suspects.
 On 3 March the total number of downloads for these four packages combined was just **130**. Then
 **24,256** on 5 March:
 
-<figure class="wp-block-image size-large">
+<figure class="block-image">
 <img src="images/unexpected-downloads-2.png" />
 </figure>
 
@@ -55,7 +55,7 @@ Four of the most popular packages are **[pycparser](https://www.piwheels.org/pro
 **[opencv-python](https://www.piwheels.org/project/opencv-python)**. Let's plot those against the
 four spiking packages over the last week:
 
-<figure class="wp-block-image size-large">
+<figure class="block-image">
 <img src="images/package-downloads-by-day.png" />
 </figure>
 
@@ -80,7 +80,7 @@ four spiking packages over the last week:
 
 So do these packages account for the spike alone?
 
-<figure class="wp-block-image size-large">
+<figure class="block-image">
 <img src="images/daily-without-anomolies.png" />
 </figure>
 
@@ -102,7 +102,7 @@ Here's a dependency graph I made with
 **[pipdeptree](https://www.piwheels.org/project/pipdeptree/)** and
 **[graphviz](https://www.graphviz.org/)**:
 
-<figure class="wp-block-image size-large">
+<figure class="block-image">
 <img src="images/pip-dep-tree-1024x239.png" />
 </figure>
 

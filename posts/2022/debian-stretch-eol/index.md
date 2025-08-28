@@ -4,7 +4,7 @@ support end of life](https://wiki.debian.org/DebianReleases). Therefore we have 
 package releases on Stretch, for the cp35m ABI. We will not delete existing cp35m wheels, just not
 build any new ones.
 
-<figure class="aligncenter size-large">
+<figure class="block-image">
 <img src="images/Stretch-1024x576.jpg" />
 <figcaption>Thank you for your service, Stretch</figcaption>
 </figure>

@@ -7,7 +7,7 @@ up to version 4.4.0.44 on Buster and 4.4.0.42 on Stretch:
 - [opencv-python](https://www.piwheels.org/project/opencv-python)
 - [opencv-python-headless](https://www.piwheels.org/project/opencv-python-headless)
 
-<figure class="wp-block-image size-large">
+<figure class="block-image">
 <a href="https://www.piwheels.org/project/opencv-python"><img src="images/Screenshot-from-2020-09-28-01-11-04-1024x502.png" /></a>
 </figure>
 
@@ -18,7 +18,7 @@ it work. These are now provided on the project pages linked above, and as of [re
 upgrades](https://blog.piwheels.org/requires-python-support-new-project-page-layout-and-a-new-json-api/),
 you can now view dependencies per file for the first time (not just the latest one):
 
-<figure class="wp-block-image size-large">
+<figure class="block-image">
 <a href="https://www.piwheels.org/project/opencv-python/"><img src="images/Screenshot-from-2020-09-28-01-10-38-1024x476.png" /></a>
 </figure>
 
@@ -33,12 +33,12 @@ sudo pip3 install opencv-python==4.4.0.44
 
 **Stretch:**
 
-``` {#block-7c19f128-946e-451e-b976-dfe4be0368a2 .wp-block-preformatted}
+```
 sudo apt install libatk-bridge2.0-0 libatk1.0-0 libatlas3-base libatspi2.0-0 libavcodec57 libavformat57 libavresample3 libavutil55 libbluray1 libcairo-gobject2 libcairo2 libchromaprint1 libdatrie1 libepoxy0 libfontconfig1 libgdk-pixbuf2.0-0 libgfortran3 libgme0 libgraphite2-3 libgsm1 libgtk-3-0 libharfbuzz0b libilmbase12 libjbig0 libmp3lame0 libmpg123-0 libogg0 libopenexr22 libopenjp2-7 libopenmpt0 libopus0 libpango-1.0-0 libpangocairo-1.0-0 libpangoft2-1.0-0 libpixman-1-0 libshine3 libsnappy1v5 libsoxr0 libspeex1 libssh-gcrypt-4 libswresample2 libswscale4 libthai0 libtheora0 libtiff5 libtwolame0 libva-drm1 libva-x11-1 libva1 libvdpau1 libvorbis0a libvorbisenc2 libvorbisfile3 libvpx4 libwavpack1 libwebp6 libwebpmux2 libx264-148 libx265-95 libxcb-render0 libxcb-shm0 libxcomposite1 libxcursor1 libxdamage1 libxfixes3 libxi6 libxinerama1 libxrandr2 libxrender1 libxvidcore4 libzvbi0
 sudo pip3 install opencv-python==4.4.0.42
 ```
 
-### opencv-python-headless
+## opencv-python-headless
 
 **Buster:**
 
@@ -49,7 +49,7 @@ sudo pip3 install opencv-python-headless==4.4.0.44
 
 **Stretch:**
 
-``` {#block-7a4f961b-a927-4c73-9988-12871bd6bc28 .wp-block-preformatted}
+```
 sudo apt install libatlas3-base libavcodec57 libavformat57 libavresample3 libavutil55 libbluray1 libcairo2 libchromaprint1 libfontconfig1 libgfortran3 libgme0 libgsm1 libilmbase12 libjbig0 libmp3lame0 libmpg123-0 libogg0 libopenexr22 libopenjp2-7 libopenmpt0 libopus0 libpixman-1-0 libshine3 libsnappy1v5 libsoxr0 libspeex1 libssh-gcrypt-4 libswresample2 libswscale4 libtheora0 libtiff5 libtwolame0 libva-drm1 libva-x11-1 libva1 libvdpau1 libvorbis0a libvorbisenc2 libvorbisfile3 libvpx4 libwavpack1 libwebp6 libwebpmux2 libx264-148 libx265-95 libxcb-render0 libxcb-shm0 libxfixes3 libxrender1 libxvidcore4 libzvbi0
 sudo pip3 install opencv-python-headless==4.4.0.42
 ```

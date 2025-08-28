@@ -16,7 +16,7 @@ Simple Repository API so that pip can use this field (if provided in the simple 
 package) to identify compatible wheels, which could mean choosing an older version of the package
 which supports your version of Python rather than let you download a version you cannot use.
 
-<figure class="wp-block-image size-large">
+<figure class="block-image">
 <img src="images/Screenshot-from-2020-09-23-00-10-02.png" />
 </figure>
 
@@ -36,7 +36,7 @@ page](https://pypi.org/project/numpy/); and similarly numpy's [simple
 index](https://www.piwheels.org/simple/numpy/) and [project
 page](https://www.piwheels.org/project/numpy/).
 
-<figure class="aligncenter size-large">
+<figure class="block-image">
 <img src="images/Screenshot-from-2020-09-23-00-16-17-1024x769.png" />
 <figcaption>PyPI's project page</figcaption>
 </figure>
@@ -46,7 +46,7 @@ they started using when they launched the current platform
 [warehouse](https://github.com/pypa/warehouse/), i.e. `/project/`. We included the list of versions
 of a package, and then the list of wheel files we had built.
 
-<figure class="aligncenter size-large">
+<figure class="block-image">
 <img src="images/Screenshot-from-2020-09-19-02-12-59-1024x682.png" />
 <figcaption>piwheels project page (old style)</figcaption>
 </figure>
@@ -55,7 +55,7 @@ The new design combines files within versions, which are expandable. And for the
 dependencies of each file is available, so you can look up the system requirements for not just the
 latest version, but any past version on Jessie, Stretch or Buster.
 
-<figure class="aligncenter size-large">
+<figure class="block-image">
 <img src="images/Screenshot-from-2020-09-23-00-10-39-1024x655.png" />
 <figcaption>piwheels project page (new style)</figcaption>
 </figure>
@@ -68,7 +68,7 @@ provided on hover.
 You can also search the package issues from a single click using a client-side rendering of results
 which uses the GitHub API:
 
-<figure class="aligncenter size-large">
+<figure class="block-image">
 <img src="images/Screenshot-from-2020-09-22-21-26-13.png" />
 </figure>
 
@@ -89,7 +89,7 @@ I started working on this feature a year ago. I overcomplicated things and ended
 branch. But recently I picked up the idea again and managed to complete it, alongside the work
 focused on the new project pages.
 
-<figure class="wp-block-image size-large">
+<figure class="block-image">
 <img src="images/Screenshot-from-2020-09-23-00-21-50.png" />
 <figcaption>The piwheels JSON API</figcaption>
 </figure>

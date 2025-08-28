@@ -22,7 +22,7 @@ This saved **269 years 3 months** during 2020, taking us to over **441 years** s
 Apart from February (short month, slightly under), each month had over **1 million downloads**. Four
 of the last five months had over **1.5 million**.
 
-<figure class="aligncenter size-large">
+<figure class="block-image">
 <img src="images/downloads-by-month-1.png" />
 </figure>
 
@@ -72,7 +72,7 @@ Incredibly, numpy was downloaded over a million times this year!
 Most searches are from Python 3.7, the default in Debian Buster (55%). Second is Python 2.7 with
 31%, followed by 3.5 (the default in Stretch) with 7.5%:
 
-<figure class="wp-block-image size-large">
+<figure class="block-image">
 <img src="images/py-vers-1.png" />
 </figure>
 
@@ -81,7 +81,7 @@ Most searches are from Python 3.7, the default in Debian Buster (55%). Second is
 armv7l (Pi 2/3/4 platform) is still a majority architecture with 91% of searches from Arm devices,
 with armv6l (Pi 1/Zero) taking under 5%:
 
-<figure class="wp-block-image size-large">
+<figure class="block-image">
 <img src="images/debian-arch-1.png" />
 </figure>
 
@@ -94,7 +94,7 @@ piwheels as we don't build aarch64 platform wheels.
 The vast majority of downloads are from Raspbian / Pi OS (over 98%). Of these, 76% are Buster, 24%
 are Stretch and practically none are Jessie:
 
-<figure class="wp-block-image size-large">
+<figure class="block-image">
 <img src="images/debian-usage-1.png" />
 </figure>
 
@@ -103,7 +103,7 @@ are Stretch and practically none are Jessie:
 Our busiest hour has moved earlier in the day, now between 3pm-4pm. All afternoon/evening UTC we are
 at our busiest:
 
-<figure class="wp-block-image size-large">
+<figure class="block-image">
 <img src="images/downloads-by-hour-1.png" />
 </figure>
 

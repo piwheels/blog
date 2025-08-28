@@ -6,7 +6,7 @@ support end of life](https://wiki.debian.org/DebianReleases). Therefore on this 
 building new package releases on Jessie, for the cp34m ABI. We will not delete existing cp34m
 wheels, just not build any new ones.
 
-<figure class="aligncenter size-large">
+<figure class="block-image">
 <img src="images/Jessie_Toy_Story.png" />
 <figcaption>Thank you for your service, Jessie</figcaption>
 </figure>

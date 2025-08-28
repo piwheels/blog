@@ -1,5 +1,5 @@
 When I first started the piwheels project in April 2017, I created [Issue
-#1](https://github.com/piwheels/piwheels/issues/1) comprising a list of features I thought were
+\#1](https://github.com/piwheels/piwheels/issues/1) comprising a list of features I thought were
 necessary for the project to be "feature complete", and until now, the issue remained open with a
 single checkbox remaining: *be able to publicly provide output from failed build attempts.*
 
@@ -12,7 +12,7 @@ limited to the two of us, often using pastebin to share with others.
 Now, these output logs are browsable by anyone, and they're easily accessible via our [project
 pages](https://www.piwheels.org/project/numpy/). Just click on the build status icon:
 
-<figure class="wp-block-image size-full">
+<figure class="block-image">
 <img src="images/Screenshot-from-2022-03-29-21-15-21.png" />
 </figure>
 
@@ -28,6 +28,6 @@ We've also introduced a banner system, alerting users browsing the website to an
 we have. Currently we're using it to inform people that [piwheels doesn't yet support
 aarch64](https://github.com/piwheels/packages/issues/119):
 
-<figure class="wp-block-image size-large">
+<figure class="block-image">
 <img src="images/Screenshot-2022-03-29-at-21-36-20-piwheels-Home-1024x796.png" />
 </figure>

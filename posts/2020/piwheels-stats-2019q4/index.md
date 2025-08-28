@@ -4,13 +4,13 @@ in total!
 
 Each month had around a million downloads:
 
-<figure class="aligncenter size-large">
+<figure class="block-image">
 <img src="images/downloads-2019q4.png" />
 </figure>
 
 which saved around between 13 and 18 years per month:
 
-<figure class="aligncenter size-large">
+<figure class="block-image">
 <img src="images/time-saved-2019q4.png" />
 </figure>
 
@@ -31,21 +31,21 @@ The top 10 downloads were:
 
 Raspbian still dominates usage with over 95%:
 
-<figure class="aligncenter size-large">
+<figure class="block-image">
 <img src="images/os-2019q4.png" />
 </figure>
 
 armv7l (Pi 2/3/4 platform) is still a majority architecture with over 90% usage, with armv6l (Pi
 1/Zero) taking just 8.2%. The combined Arm architecture takes over 98% of all usage:
 
-<figure class="aligncenter size-large">
+<figure class="block-image">
 <img src="images/arch-2019q4.png" />
 </figure>
 
 Python version usage changes more over time. Since Raspbian Buster was released, Python 3.7 usage
 quickly overtook Python 3.5:
 
-<figure class="aligncenter size-large">
+<figure class="block-image">
 <img src="images/pyver-2019q4.png" />
 </figure>
 

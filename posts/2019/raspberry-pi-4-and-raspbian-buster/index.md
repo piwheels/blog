@@ -12,7 +12,7 @@ it's not a new architecture. Like the Pi3/3+ it contains an Armv8 CPU which gene
 (Armv7) operating system in Pi-1 compatible userland (Armv6). This means Armv7-optimised (NEON) code
 will work on it, but so will Armv6 code, just like the Pi 2 and 3.
 
-<figure class="wp-block-image">
+<figure class="block-image">
 <img src="images/raspberry-pi-4-1024x732.jpg" />
 </figure>
 
@@ -21,7 +21,7 @@ will work on it, but so will Armv6 code, just like the Pi 2 and 3.
 Whether you're on a Pi 1, 2, 3, 4 or Zero, you can and should use Raspbian Buster. It's now the
 recommended and supported operating system for all Raspberry Pi models.
 
-<figure class="wp-block-image">
+<figure class="block-image">
 <img src="images/buster-1024x576.jpg" />
 </figure>
 

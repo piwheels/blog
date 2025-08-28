@@ -1,19 +1,17 @@
 piwheels has now passed 500,000,000 downloads!
 
-<figure class="wp-block-embed">
-<div class="wp-block-embed__wrapper">
+<figure class="block-embed">
 <blockquote>
 <p>Now passed 500,000,000 downloads</p>
 <p>— piwheels.org (@piwheels) <a
 href="https://twitter.com/piwheels/status/1806297312639025661?ref_src=twsrc%5Etfw">June 27,
 2024</a></p>
 </blockquote>
-</div>
 </figure>
 
 Here are the downloads each year, including the first six months of 2024:
 
-<figure class="wp-block-image size-full">
+<figure class="block-image">
 <img src="images/downloads-by-year.png" />
 </figure>
 

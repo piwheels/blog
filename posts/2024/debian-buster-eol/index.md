@@ -4,7 +4,7 @@ support end of life](https://wiki.debian.org/DebianReleases). Therefore we have 
 package releases on Buster, for the `cp37m` ABI. We will not delete existing `cp37m` wheels, just
 not build any new ones.
 
-<figure class="aligncenter size-full">
+<figure class="block-image">
 <img src="images/buster.jpg" />
 <figcaption>Thank you for your service, Buster. You were a good boy.</figcaption>
 </figure>

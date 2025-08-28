@@ -26,7 +26,7 @@ cp34m, it'll need rebuilding for the next ABI. If it fails, it needs attempting 
 might fail there too, depending on the reason for failure, but it's worth trying as it could easily
 be that it has a minimum Python version requirement of, say, 3.5. Here's a diagram of the logic:
 
-<figure class="aligncenter">
+<figure class="block-image">
 <img src="images/piwheels.png" />
 </figure>
 
@@ -40,7 +40,7 @@ we'll reimage most of the builders to Buster to finish up, and then retire them,
 2 Stretch and 2 Buster to keep up with new releases moving forward. I imagine it will be finished
 within a week.
 
-<figure class="wp-block-image">
+<figure class="block-image">
 <img src="images/Screenshot-from-2019-07-07-16-41-22-957x1024.png" />
 </figure>
 

@@ -9,21 +9,21 @@ Each month had around **1.1 million** downloads and **10 million** searches!
 **May** had the highest number of downloads with **1,271,663**, slightly fewer than the peak in
 March:
 
-<figure class="wp-block-image size-large">
+<figure class="block-image">
 <img src="images/downloads-by-month.png" />
 </figure>
 
-<figure class="wp-block-image size-large">
+<figure class="block-image">
 <img src="images/downloads-by-day.png" />
 </figure>
 
-<figure class="wp-block-image size-large">
+<figure class="block-image">
 <img src="images/searches-by-day.png" />
 </figure>
 
 Downloads saved around between **21** and **25** years per month:
 
-<figure class="wp-block-image size-large">
+<figure class="block-image">
 <img src="images/time-saved-by-month-1.png" />
 </figure>
 
@@ -62,7 +62,7 @@ as "Debian", so from next quarter on, I'll group Debian and Raspbian together. D
 obviously rising as more people use the latest image, and Ubuntu remains in third place with under
 2%.
 
-<figure class="aligncenter size-large">
+<figure class="block-image">
 <img src="images/distro-usage.png" />
 </figure>
 
@@ -71,7 +71,7 @@ with armv6l (Pi 1/Zero) taking under 7%. Raspberry Pi recently released a beta o
 of the official OS, so that's bound to grow in usage from now on. It's currently at almost 1%, and
 those users are currently not served by piwheels as we don't build aarch64 platform wheels.
 
-<figure class="aligncenter size-large">
+<figure class="block-image">
 <img src="images/debian-arch.png" />
 </figure>
 
@@ -82,20 +82,20 @@ majority, and 3.7 (the version provided by the current stable distro) has the hi
 Python 3.4 (in Jessie, now EOL) has an insignificant usage, but it's a shame there's still so much
 Python 2 usage.
 
-<figure class="aligncenter size-large">
+<figure class="block-image">
 <img src="images/py-vers.png" />
 </figure>
 
 We're now also logging pip and setuptools versions:
 
-<figure class="wp-block-image size-large">
+<figure class="block-image">
 <img src="images/pip-vers.png" />
 </figure>
 
 Note that 18.1 is pre-installed in Buster, and 9.0.1 is pre-installed in Stretch. 20.1.1 is a
 recently released version, so likely the most common for people who update their pip.
 
-<figure class="wp-block-image size-large">
+<figure class="block-image">
 <img src="images/setuptools-vers.png" />
 </figure>
 

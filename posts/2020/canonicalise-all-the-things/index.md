@@ -39,11 +39,11 @@ functionality, so we also provide both. The part of the index that's used by pip
 directory at **piwheels.org/simple** containing a directory per package, each containing any files
 associated with that package.
 
-<figure class="aligncenter size-large">
+<figure class="block-image">
 <img src="images/Screenshot-from-2020-09-19-02-09-48-1024x753.png" />
 </figure>
 
-<figure class="aligncenter size-large">
+<figure class="block-image">
 <img src="images/Screenshot-from-2020-09-19-02-12-59-1024x682.png" />
 </figure>
 
@@ -156,7 +156,7 @@ them very soon. That'll be:
 
 And then we can finally begin to look at adding [aarch64
 support](https://github.com/piwheels/piwheels/issues/220) to piwheels, and closing [issue
-#1](https://github.com/piwheels/piwheels/issues/1) by providing build output. See the [issue
+\#1](https://github.com/piwheels/piwheels/issues/1) by providing build output. See the [issue
 tracker](https://github.com/piwheels/piwheels/issues) for more info on what's planned.
 
 As always, if you come across a missing package/version/file or have another issue using piwheels,

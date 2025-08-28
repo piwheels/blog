@@ -5,24 +5,24 @@ page hits and **50,894** project JSON downloads in the period.
 
 **October** had the highest number of downloads (ever) with **1,850,781**:
 
-<figure class="aligncenter size-large">
+<figure class="block-image">
 <img src="images/downloads-by-month.png" />
 </figure>
 
 Oddly, we experienced a one-day spike surpassing 100k downloads in a single day for the first time.
 15 December saw a total of **105,826** downloads:
 
-<figure class="wp-block-image size-large">
+<figure class="block-image">
 <img src="images/downloads-by-day.png" />
 </figure>
 
-<figure class="wp-block-image size-large">
+<figure class="block-image">
 <img src="images/searches-by-day.png" />
 </figure>
 
 Downloads saved around between **16** and 22 years per month:
 
-<figure class="wp-block-image size-large">
+<figure class="block-image">
 <img src="images/time-saved-by-month.png" />
 </figure>
 
@@ -91,14 +91,14 @@ Debian are now combined (due to Raspberry Pi OS identifying itself as Debian). T
 dominates with over 98%. Ubuntu remains in third place with under 1%, although we don't officially
 support it.
 
-<figure class="aligncenter size-large">
+<figure class="block-image">
 <img src="images/distro-usage-1.png" />
 </figure>
 
 Buster accounts for 85% of Raspbian/Debian usage, Stretch accounts for 15% and there's practically
 no Jessie usage:
 
-<figure class="aligncenter size-large">
+<figure class="block-image">
 <img src="images/debian-usage.png" />
 </figure>
 
@@ -107,7 +107,7 @@ with armv6l (Pi 1/Zero) taking under 5%. Raspberry Pi released a beta of a 64-bi
 official OS earlier in the year, and that's starting to grow in usage. It's currently up to 4.2%,
 and those users are currently not served by piwheels as we don't build aarch64 platform wheels.
 
-<figure class="aligncenter size-large">
+<figure class="block-image">
 <img src="images/debian-arch.png" />
 </figure>
 
@@ -116,20 +116,20 @@ distro) has the highest share with 63%. Python 2.7 comes second with 23%, follow
 oldstable), 3.8 and 3.6. Fortunately, Python 3.4 (in Jessie, now EOL) has an insignificant usage,
 but it's a shame there's still so much Python 2 usage.
 
-<figure class="aligncenter size-large">
+<figure class="block-image">
 <img src="images/py-vers.png" />
 </figure>
 
 We're also logging pip and setuptools versions:
 
-<figure class="aligncenter size-large">
+<figure class="block-image">
 <img src="images/pip-vers.png" />
 </figure>
 
 Note that 18.1 is pre-installed in Buster, and 9.0.1 is pre-installed in Stretch. 20.1.1 is a
 recently released version, so likely the most common for people who update their pip.
 
-<figure class="aligncenter size-large">
+<figure class="block-image">
 <img src="images/setuptools-vers.png" />
 </figure>
 

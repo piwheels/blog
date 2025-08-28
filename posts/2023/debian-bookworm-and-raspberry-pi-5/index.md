@@ -5,7 +5,7 @@ release based on Debian Bookworm has been released, which includes Python 3.11. 
 for cp311 and all [project pages](https://www.piwheels.org/packages.html) should now show the
 availability for each version:
 
-<figure class="aligncenter size-full">
+<figure class="block-image">
 <img src="images/Screenshot-from-2023-11-01-10-28-40.png" />
 </figure>
 

@@ -78,16 +78,9 @@ an issue](https://github.com/piwheels/packages/issues) and we'll look into it.*
 
 ## Yanking
 
-<figure class="wp-block-embed-twitter wp-block-embed is-type-rich is-provider-twitter">
-<div class="wp-block-embed__wrapper">
-https://twitter.com/di_codes/status/1253166894158417926
-</div>
-</figure>
-
-Back in April, the PyPI team[](https://twitter.com/di_codes/) added support for
-[PEP-592](https://www.python.org/dev/peps/pep-0592/) to warehouse (the new PyPI website). This means
-you can now "yank" a release from PyPI. Yank is a soft-deletion. So, for example, if v1.0.0 was
-released, then v1.0.1, then v1.0.1 was yanked:
+Back in April, the PyPI team added support for [PEP-592](https://www.python.org/dev/peps/pep-0592/)
+to warehouse (the new PyPI website). This means you can now "yank" a release from PyPI. Yank is a
+soft-deletion. So, for example, if v1.0.0 was released, then v1.0.1, then v1.0.1 was yanked:
 
 - `pip install package==1.0.1` would install v1.0.1 even though it's yanked
 - `pip install package` would fall back to v1.0.0
@@ -99,8 +92,7 @@ Until now, piwheels didn't honour "yank". But now support has been added, we pla
 appropriate attribute in the simple index (so pip can see it) and added "yanked" badges to project
 pages. We also "pre-release" badges:
 
-
-<figure class="aligncenter size-large">
+<figure class="block-image">
 <img src="images/Screenshot-from-2020-07-10-00-18-24.png" />
 </figure>
 
@@ -132,7 +124,7 @@ better analysis of version usage, including Python 2. We already see a significa
 Python 2 users downloading universal wheels, but obviously we didn't previously see what the
 overall usage was. Now we can:
 
-<figure class="wp-block-image size-large">
+<figure class="block-image">
 <img src="images/py-vers.png" />
 </figure>
 
@@ -148,12 +140,12 @@ piwheels server and all the builder Pis. We can now see graphs of each Pi's CPU 
 average, memory usage and disk usage. This makes it much easier to see when a Pi is suffering under
 the load of a particularly difficult package build.
 
-<figure class="aligncenter size-large">
+<figure class="block-image">
 <img src="images/Screenshot-from-2020-08-12-12-35-34.png" />
 <figcaption>Inspecting the main piwheels server</figcaption>
 </figure>
 
-<figure class="aligncenter size-large">
+<figure class="block-image">
 <img src="images/Screenshot-from-2020-08-12-12-35-52.png" />
 <figcaption>Inspecting one of the (currently idle) builder Pis</figcaption>
 </figure>

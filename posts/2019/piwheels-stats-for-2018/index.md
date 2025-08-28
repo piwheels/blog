@@ -16,11 +16,11 @@ In 2018, a total of **5,154,233** packages were downloaded, saving users **39 ye
 
 Usage was steady throughout the year, with a rise in the final quarter:
 
-<figure class="wp-block-image">
+<figure class="block-image">
 <img src="images/piwheels-2018-daily.png" />
 </figure>
 
-<figure class="wp-block-image">
+<figure class="block-image">
 <img src="images/piwheels-2018-monthly.png" />
 </figure>
 
@@ -76,7 +76,7 @@ Pi 1/Zero users as they don't contain the quad-core CPU found in the Pi 2/3.
 7.  **AMD64** (185)
 8.  **x86** (2)
 
-<figure class="wp-block-image">
+<figure class="block-image">
 <img src="images/piwheels-2018-arch.png" />
 </figure>
 
@@ -93,11 +93,11 @@ packages which require compilation.
 By far, most downloads come from Raspbian, particularly Raspbian Stretch. The next highest are
 Debian Stretch and then various Ubuntu distributions (each significantly smaller):
 
-<figure class="wp-block-image">
+<figure class="block-image">
 <img src="images/piwheels-2018-os.png" />
 </figure>
 
-<figure class="wp-block-image">
+<figure class="block-image">
 <img src="images/piwheels-2018-os-versions.png" />
 </figure>
 
@@ -121,7 +121,7 @@ downloads (though limited to pure Python packages) is larger than any other Pyth
 indicates a large Python 2 user base. Remember, kids, [Python 2 EOL](https://pythonclock.org/) is
 now **less than a year away**!
 
-<figure class="wp-block-image">
+<figure class="block-image">
 <img src="images/piwheels-2018-python-version.png" />
 </figure>
 
@@ -164,7 +164,7 @@ draw of a Pi 2 for the Armv7 downloads, and a Pi Zero for the Armv6 downloads.
 So what does an average day look like on piwheels? Well here's a graph showing the number of
 downloads per hour throughout our busiest day of the year:
 
-<figure class="wp-block-image">
+<figure class="block-image">
 <img src="images/piwheels-2018-day.png" />
 </figure>
 

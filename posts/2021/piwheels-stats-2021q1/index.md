@@ -6,7 +6,7 @@ page hits and **84,621** project JSON downloads in the period.
 Each month was subsequently record-breaking. **March** had the highest number of downloads (ever)
 with **1,850,781**, more than *double* the record set in the previous quarter:
 
-<figure class="aligncenter size-large">
+<figure class="block-image">
 <img src="images/downloads-by-month.png" />
 </figure>
 
@@ -18,18 +18,18 @@ The latest version of pip, 21.x, now seems to prefer the "extra index" (i.e. piw
 "index" (i.e. PyPI), so now we're seeing a significant increase in downloads due to many pure
 Python wheels now being served from piwheels which previously would have been served by PyPI.
 
-<figure class="aligncenter size-large">
+<figure class="block-image">
 <img src="images/downloads-by-day.png" />
 </figure>
 
-<figure class="aligncenter size-large">
+<figure class="block-image">
 <img src="images/searches-by-day.png" />
 </figure>
 
 Downloads saved around between **10** and **20** years per month. It seems this is falling,
 presumably due to more downloads coming from faster platforms (Pi 3/4 vs 1/Zero).
 
-<figure class="wp-block-image size-large">
+<figure class="block-image">
 <img src="images/time-saved-by-month.png" />
 </figure>
 
@@ -96,14 +96,14 @@ and Debian are now combined (due to Raspberry Pi OS identifying itself as Debian
 obviously dominates with nearly 98%. Ubuntu remains in third place with under 2%, although we don't
 officially support it.
 
-<figure class="aligncenter size-large">
+<figure class="block-image">
 <img src="images/distro-usage.png" />
 </figure>
 
 Buster accounts for nearly 93% of Raspbian/Debian usage, Stretch accounts for just 7% and there's
 practically no Jessie usage:
 
-<figure class="aligncenter size-large">
+<figure class="block-image">
 <img src="images/debian-usage.png" />
 </figure>
 
@@ -113,7 +113,7 @@ official OS last year, which was starting to grow in usage but has dropped sligh
 at 3.8%, and those users are currently not served by piwheels as we don't yet build aarch64
 platform wheels. We actually get more hits from x86_64 users than either armv6l or aarch64.
 
-<figure class="aligncenter size-large">
+<figure class="block-image">
 <img src="images/debian-arch.png" />
 </figure>
 
@@ -124,20 +124,20 @@ insignificant usage, but it's a shame there's still so much Python 2 usage. Gene
 are using the Python provided by the current Debian stable — which is due to change this summer, so
 we'll start to see a rise in Python 3.9 usage which could become the leader by the end of the year.
 
-<figure class="aligncenter size-large">
+<figure class="block-image">
 <img src="images/py-vers-2.png" />
 </figure>
 
 We're also logging pip and setuptools versions:
 
-<figure class="aligncenter size-large">
+<figure class="block-image">
 <img src="images/pip-vers.png" />
 </figure>
 
 Note that 18.1 is pre-installed in Buster, and 9.0.1 is pre-installed in Stretch. 20.1.1 is a
 recently released version, so likely the most common for people who update their pip.
 
-<figure class="aligncenter size-large">
+<figure class="block-image">
 <img src="images/setuptools-vers.png" />
 </figure>
 
@@ -149,13 +149,13 @@ month, peaking at 6.4TB in March. The breakdown of bandwidth in the period is 84
 pip searches, a tiny amount (0.05%) of website traffic (project pages, JSON, etc) and the rest (14%)
 comprising mostly of wheel downloads from browsers (not pip):
 
-<figure class="wp-block-image size-large">
+<figure class="block-image">
 <img src="images/bandwidth-1.png" />
 </figure>
 
 And broken down by month:
 
-<figure class="wp-block-image size-large">
+<figure class="block-image">
 <img src="images/bandwidth-by-month-1.png" />
 </figure>
 

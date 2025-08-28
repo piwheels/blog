@@ -6,7 +6,7 @@ Python 3.9, so we needed to rebuild all platform wheels for the new ABI.
 We've added a Bullseye column to the versions table on project pages to show the status of each
 build:
 
-<figure class="aligncenter size-large">
+<figure class="block-image">
 <img src="images/Screenshot-2021-07-22-at-00.19.50-1024x294.png" />
 </figure>
 
@@ -15,7 +15,7 @@ was released. We stopped building on Jessie when it reached EOL, and we'll conti
 this. Although Python 3.5 itself is EOL, Debian Stretch still has another year of support so we'll
 continue building on it until then:
 
-<figure class="aligncenter size-large">
+<figure class="block-image">
 <img src="images/Screenshot-2021-07-22-at-00.42.28-1024x293.png" />
 </figure>
 
@@ -23,7 +23,7 @@ We employed a scaled-up approach to clearing the cp39 backlog, provisioning 22 R
 work their way through attempting to build wheels of everything in the queue. Once it cleared those
 we dropped back to around 5 Pis per ABI in order to keep up with new releases.
 
-<figure class="aligncenter size-large">
+<figure class="block-image">
 <img src="images/Screenshot-from-2021-08-01-11-13-03-904x1024.png" />
 <figcaption>The piwheels monitor once the queue had cleared</figcaption>
 </figure>
@@ -55,21 +55,20 @@ we've added them and integrated the project pages so that clicking on one of the
 completes the form, allowing people to give extra information and not be able to continue without
 filling out all the required fields.
 
-<figure class="wp-block-media-text__media">
+<figure class="block-image">
 <img src="images/Screenshot-2021-07-22-at-00.52.51.png" />
 </figure>
 
 Clicking new issue on the numpy page brings you here, form filled in automatically:
 
-<figure class="aligncenter size-large">
+<figure class="block-image">
 <img src="images/Screenshot-2021-07-22-at-00.53.44-814x1024.png" />
 </figure>
 
 We also added support for Twitter cards on project pages, so when people tweet links to projects,
 it'll show the piwheels logo and the project description:
 
-<figure class="wp-block-embed">
-<div class="wp-block-embed__wrapper">
+<figure class="block-embed">
 <blockquote>
 <p><a href="https://twitter.com/waveform80?ref_src=twsrc%5Etfw">@waveform80</a> we got twitter cards
 <a href="https://t.co/DZUM4M6vJq">https://t.co/DZUM4M6vJq</a></p>
@@ -77,7 +76,6 @@ it'll show the piwheels logo and the project description:
 href="https://twitter.com/ben_nuttall/status/1417972828863873024?ref_src=twsrc%5Etfw">July 21,
 2021</a></p>
 </blockquote>
-</div>
 </figure>
 
 We also recently surpassed **50 million downloads**, and have saved over **500 years** of build

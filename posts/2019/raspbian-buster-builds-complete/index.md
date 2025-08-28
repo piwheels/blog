@@ -8,7 +8,7 @@ wheels (Buster). We also host 1.1 million pure Python wheels, which work on any 
 It's amazing how few packages actually require compilation, but for the ones that do, having a
 wheel makes a big difference.
 
-<figure class="wp-block-image">
+<figure class="block-image">
 <img src="images/Screenshot-from-2019-07-18-18-17-42-1024x868.png" />
 <figcaption>Staring at these two terminal screens has been my life for the last few
 weeks</figcaption>
@@ -27,7 +27,7 @@ issues related to packages should be filed at
 point at the old location, but the issue templates refer people to the right place. We'll push an
 update soon and the project pages will be regenerated with the new URLs.
 
-<figure class="wp-block-image">
+<figure class="block-image">
 <img src="images/Screenshot-from-2019-07-18-18-19-40.png" />
 </figure>
 
@@ -44,7 +44,7 @@ also planned, with a scheduled release date in June 2020, plus the proposed intr
 Bullseye. But that's two years away, so let's wait and see.
 
 
-<figure class="aligncenter">
+<figure class="block-image">
 <img src="images/bullseye-901x1024.jpg" />
 <figcaption>Debian 11 – Bullseye – but what snake will be in Woody's boot?</figcaption>
 </figure>

@@ -5,7 +5,7 @@ sketch](https://www.youtube.com/watch?v=Hz1JWzyvv8A).*
 I often find myself staring at the piwheels monitor, and occasionally a strange package name or an
 unusually longer version number pops up:
 
-<figure class="aligncenter size-large">
+<figure class="block-image">
 <img src="images/Screenshot-from-2021-07-28-21-36-08-904x1024.png" />
 </figure>
 
@@ -25,7 +25,7 @@ the time there were:
 The most common length of package name is **8** characters (like
 [**gpiozero**](https://pypi.org/project/gpiozero/)):
 
-<figure class="aligncenter size-full">
+<figure class="block-image">
 <img src="images/package_name_len_bar.png" />
 </figure>
 
@@ -43,11 +43,11 @@ The longest package names are:
 - [**wix-protos-ecom-shipments-localdelivery-wix-ecommerce-shipments-local-delivery-web**](https://pypi.org/project/wix-protos-ecom-shipments-localdelivery-wix-ecommerce-shipments-local-delivery-web/)
     (82)
 
-<figure class="aligncenter size-full">
+<figure class="block-image">
 <img src="images/package_name_len_pie.png" />
 </figure>
 
-<figure class="aligncenter size-large">
+<figure class="block-image">
 <img src="images/test.png" />
 </figure>
 
@@ -57,7 +57,7 @@ The most common starting character for a package name is **p** (14%), due to lot
 named "py"-something or "python"-something. Second is **d** (9%) due to "django-" packages.
 The distribution for the rest of the character set is:
 
-<figure class="aligncenter size-full">
+<figure class="block-image">
 <img src="images/pkg_first_letter_pie.png" />
 </figure>
 
@@ -71,13 +71,13 @@ The least common starting character is **9**. Only five packages start with a 9:
 
 Looking at the first two characters, the most common are **py**, **dj**, **od**, **co** and **re**:
 
-<figure class="aligncenter size-full">
+<figure class="block-image">
 <img src="images/pkg_first_two_letters_bar-1.png" />
 </figure>
 
 Looking at the first three characters, **dja** takes over **py**:
 
-<figure class="aligncenter size-full">
+<figure class="block-image">
 <img src="images/pkg_first_three_letters_bar.png" />
 </figure>
 
@@ -89,14 +89,14 @@ distribution of each subsequent digit is less likely. I wondered if this could b
 package version numbers. Taking the numeric versions, and looking at the first non-zero digit, the
 distribution is reasonably compliant with Benford's Law:
 
-<figure class="aligncenter size-full">
+<figure class="block-image">
 <img src="images/bar_with_benford_fd.png" />
 </figure>
 
 However, looking at the distribution of all digits (not just the first), this follows the pattern
 laid out by Benford's Law much more closely:
 
-<figure class="aligncenter size-full">
+<figure class="block-image">
 <img src="images/bar_with_benford.png" />
 </figure>
 
@@ -109,7 +109,7 @@ I excluded packages which had no versions (because they don't have JSON endpoint
 the rest of them, over a quarter only have a single version. The frequency drops steadily as the
 number of versions rises:
 
-<figure class="aligncenter size-full">
+<figure class="block-image">
 <img src="images/vers_per_package.png" />
 </figure>
 
@@ -134,11 +134,11 @@ they can be *any* string.
     exclusively has versions of 70 characters e.g.
     [**1.0dev-BZR-r115-panta-elasticworld.org-20100520155735-sf3yrsr0pvyvlm8m**](https://pypi.org/project/softwarefabrica.django.utils/1.0dev-BZR-r115-panta-elasticworld.org-20100520155735-sf3yrsr0pvyvlm8m/)
 
-<figure class="aligncenter size-full">
+<figure class="block-image">
 <img src="images/ver_lens.png" />
 </figure>
 
-<figure class="aligncenter size-large">
+<figure class="block-image">
 <img src="images/Screenshot-from-2021-08-01-15-54-23-1024x275.png" />
 </figure>
 
@@ -158,7 +158,7 @@ You might also be interested in the similar POSIX IPC module at: http://semanchu
 
 Yes, that entire block of text. The version has now been deleted.
 
-<figure class="aligncenter size-large">
+<figure class="block-image">
 <img src="images/photo6021784590307407545-1-1024x486.jpg" />
 <figcaption>The truncated version number appearing on piwheels, prior to its deletion</figcaption>
 </figure>
@@ -167,7 +167,7 @@ Other times this kind of thing has happened by accident include the first versio
 **[omnijson](https://pypi.org/project/omnijson/)** which was called "**[Kenneth
 Reitz](https://pypi.org/project/omnijson/Kenneth%20Reitz/)**" and is still live:
 
-<figure class="aligncenter size-full">
+<figure class="block-image">
 <img src="images/photo6048744782924200107.jpg" />
 </figure>
 
@@ -192,7 +192,7 @@ if there were others. There are 16 versions on PyPI which end in a newline chara
 
 Visually, on PyPI, these look identical:
 
-<figure class="aligncenter size-full">
+<figure class="block-image">
 <img src="images/Screenshot-from-2021-08-01-16-49-49.png" />
 <figcaption><a href="https://pypi.org/project/bugzilla/#history">Bugzilla</a> v1 – but which
 one??</figcaption>
@@ -210,7 +210,7 @@ numbers in them.
 
 This version number of **jw-util** seems to have been another accident:
 
-<figure class="aligncenter size-full">
+<figure class="block-image">
 <img src="images/Screenshot-from-2021-08-01-16-04-29.png" />
 </figure>
 

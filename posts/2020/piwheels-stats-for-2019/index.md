@@ -21,13 +21,13 @@ files were downloaded, taking the total to **51TB**.
 
 Each month had over **500,000** downloads, reaching over **1 million** in November and December:
 
-<figure class="aligncenter size-large">
+<figure class="block-image">
 <img src="images/downloads-2019.png" />
 </figure>
 
 Each month saved over 7 years, topping out at 17 years:
 
-<figure class="aligncenter size-large">
+<figure class="block-image">
 <img src="images/time-saved-2019.png" />
 </figure>
 
@@ -76,7 +76,7 @@ Each month saved over 7 years, topping out at 17 years:
 At the start of the year, most downloads were for Python 3.5 which is in Raspbian Stretch, but as
 soon as Buster was released, Python 3.7 began to take over:
 
-<figure class="wp-block-image size-large">
+<figure class="block-image">
 <img src="images/pyvers2019.png" />
 </figure>
 
@@ -92,7 +92,7 @@ The Pi 2, 3 and 4 all identify as armv7l, whereas Pi 1 and Zero are armv6l. armv
 accounted a huge majority of downloads (88% in 2018), and it's pretty much stayed around that mark
 through 2019:
 
-<figure class="wp-block-image size-large">
+<figure class="block-image">
 <img src="images/arch2019.png" />
 </figure>
 
@@ -101,7 +101,7 @@ through 2019:
 The vast majority of downloads are from Raspbian (over 90%). As observed with Python versions, much
 of the usage switched from Stretch to Buster after its release in July:
 
-<figure class="wp-block-image size-large">
+<figure class="block-image">
 <img src="images/distro_versions.png" />
 </figure>
 
@@ -112,7 +112,7 @@ launched.
 
 Our busiest hour is between 7pm-8pm. All afternoon/evening UTC we are at our busiest:
 
-<figure class="wp-block-image size-large">
+<figure class="block-image">
 <img src="images/downloads-day-2019.png" />
 </figure>
 

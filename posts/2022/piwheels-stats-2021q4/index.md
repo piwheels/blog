@@ -3,24 +3,24 @@ bringing the total to **67,608,247**. This has saved **43 years** in the period,
 in total! There were **58,871,182** pip searches, **886,179** project page hits, **420,490** web
 page hits and **294,252** project JSON downloads in the period.
 
-<figure class="aligncenter size-full">
+<figure class="block-image">
 <img src="images/downloads-by-month.png" />
 </figure>
 
 In the previous quarter, only 7 days surpassed **100k** downloads. In this period, most days did. 5
 days surpassed **200k**, 3 surpassed **250k**, and one surpassed **300k**.
 
-<figure class="aligncenter size-full">
+<figure class="block-image">
 <img src="images/downloads-by-day.png" />
 </figure>
 
-<figure class="aligncenter size-full">
+<figure class="block-image">
 <img src="images/searches-by-day.png" />
 </figure>
 
 Downloads saved around between **13** and **17** years per month:
 
-<figure class="aligncenter size-full">
+<figure class="block-image">
 <img src="images/time-saved-by-month.png" />
 </figure>
 
@@ -86,7 +86,7 @@ are now combined (due to Raspberry Pi OS identifying itself as Debian). This gro
 dominates with over 98%. Ubuntu remains in third place with only 0.7%, although we don't officially
 support it.
 
-<figure class="aligncenter size-full">
+<figure class="block-image">
 <img src="images/distro-usage.png" />
 </figure>
 
@@ -95,7 +95,7 @@ taking over Buster (68%), due to [compatibility
 issues](https://www.raspberrypi.com/news/new-old-functionality-with-raspberry-pi-os-legacy/) with
 e.g. picamera. Stretch has dropped to under 7% and there's practically no Jessie usage.
 
-<figure class="aligncenter size-full">
+<figure class="block-image">
 <img src="images/debian-usage.png" />
 </figure>
 
@@ -104,7 +104,7 @@ devices (89% of which is from armv7l). Last quarter we saw more hits from aarch6
 and armv6l combined, but this spike has diminished, although aarch64 still (just) beats armv6l, with
 4.6% to 3.5%:
 
-<figure class="aligncenter size-full">
+<figure class="block-image">
 <img src="images/arch.png" />
 </figure>
 
@@ -112,17 +112,17 @@ Python 3 has an overwhelming majority of usage (88%), and 3.7 (the version provi
 the highest share with 54%. Bullseye's Python 3.9 now comes second with 24% and Python 2.7 comes
 third with 15%:
 
-<figure class="aligncenter size-full">
+<figure class="block-image">
 <img src="images/py-vers.png" />
 </figure>
 
 We're also logging pip and setuptools versions:
 
-<figure class="aligncenter size-full">
+<figure class="block-image">
 <img src="images/pip-vers.png" />
 </figure>
 
-<figure class="aligncenter size-full">
+<figure class="block-image">
 <img src="images/setuptools-vers.png" />
 </figure>
 
@@ -131,13 +131,13 @@ bandwidth in the period is 79% pip downloads, 2.5% pip searches, a tiny amount (
 traffic (project pages, JSON, etc) and the rest (surprisingly high, 17.5%) comprising mostly of
 direct wheel downloads not from pip (e.g. browsers):
 
-<figure class="wp-block-image size-full">
+<figure class="block-image">
 <img src="images/bandwidth.png" />
 </figure>
 
 And broken down by month:
 
-<figure class="wp-block-image size-full">
+<figure class="block-image">
 <img src="images/bandwidth-by-month-1.png" />
 </figure>
 

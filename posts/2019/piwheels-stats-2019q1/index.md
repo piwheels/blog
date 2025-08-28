@@ -11,7 +11,7 @@ This brings our totals so far to:
 
 The number of downloads in this period is *more than double* the same period in 2018.
 
-<figure class="wp-block-image">
+<figure class="block-image">
 <img src="images/Downloads.png" />
 </figure>
 
@@ -21,7 +21,7 @@ There was a record breaking number of downloads in the month of January:
 - February: **700,246**
 - March: **683,112**
 
-<figure class="wp-block-image">
+<figure class="block-image">
 <img src="images/Downloads-by-month.png" />
 </figure>
 
@@ -31,7 +31,7 @@ However, February saved users the most time:
 - February: **9 years 1 month**
 - March: **8 years**
 
-<figure class="wp-block-image">
+<figure class="block-image">
 <img src="images/Time-saved-in-years-by-month.png" />
 </figure>
 
@@ -40,7 +40,7 @@ However, February saved users the most time:
 We also recently deployed new project pages so users have a nicer interface when browsing
 information about which packages and versions we have:
 
-<figure class="wp-block-image">
+<figure class="block-image">
 <a href="https://www.piwheels.org/project/pycparser/"><img src="images/piwheels-project-page.png" /></a>
 </figure>
 
@@ -86,7 +86,7 @@ Remember, Armv7 means Pi 2, 3, and 3+; and Armv6 means Pi 1 and Pi Zero. There's
 record of x86_64 downloads, and a trace of a few others. But since we only provide Arm platform
 wheels (not x86 ones), the only x86 (& etc) downloads recorded are pure Python wheels only.
 
-<figure class="wp-block-image">
+<figure class="block-image">
 <img src="images/Downloads-by-architecture.png" />
 </figure>
 
@@ -96,7 +96,7 @@ they're shipping 18.04 images, but neither of these ship with piwheels pre-confi
 Canonical have started work on officially supporting Ubuntu Desktop and Server for the Pi, so I'm
 sure we'll see a rise in usage in 2019.
 
-<figure class="wp-block-image">
+<figure class="block-image">
 <img src="images/Downloads-by-OS.png" />
 </figure>
 
@@ -106,7 +106,7 @@ piwheels. Jessie had very few downloads, and Buster (testing) had almost as many
 have Python 3.4 wheels, but Jessie is not configured to use piwheels. We don't get have Python 3.7
 wheels for Buster, but we will by the time it's released.
 
-<figure class="wp-block-image">
+<figure class="block-image">
 <img src="images/Downloads-by-distro-version.png" />
 </figure>
 
@@ -123,7 +123,7 @@ distribution, or try upgrading to Buster. But it seems we have a 1.4% hit for Py
 providing wheels for it. These could be Ubuntu 18.04 users, or Raspbian users who have built Python
 3.6 themselves.
 
-<figure class="wp-block-image">
+<figure class="block-image">
 <img src="images/Downloads-by-Python-version.png" />
 </figure>
 

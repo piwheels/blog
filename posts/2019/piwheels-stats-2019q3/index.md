@@ -4,13 +4,13 @@ in total!
 
 Each month had around 800,000 downloads:
 
-<figure class="wp-block-image">
+<figure class="block-image">
 <img src="images/q3_downloads.png" />
 </figure>
 
 which saved around between 7 and 11 years per month:
 
-<figure class="wp-block-image">
+<figure class="block-image">
 <img src="images/q3_time_saved.png" />
 </figure>
 
@@ -31,21 +31,21 @@ The top 10 downloads were:
 
 Raspbian still dominates usage with over 94%:
 
-<figure class="aligncenter">
+<figure class="block-image">
 <img src="images/q3_oss.png" />
 </figure>
 
 armv7l (Pi 2/3 platform) is still a majority architecture with almost 90% usage, with armv6l (Pi
 1/Zero) taking just 8.1%. The combined Arm architecture takes nearly 92% of all usage:
 
-<figure class="aligncenter">
+<figure class="block-image">
 <img src="images/q3_arch.png" />
 </figure>
 
 Python version usage changes more over time. As Raspbian Buster was released during the month of
 July, Python 3.7 usage quickly overtook Python 3.5:
 
-<figure class="aligncenter">
+<figure class="block-image">
 <img src="images/q3_py_vers.png" />
 </figure>
 

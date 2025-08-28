@@ -21,7 +21,7 @@ files were downloaded, taking the total to **153TB**.
 Apart from January, each month had over **2 million downloads**. The last three months all passed
 **3.5 million**.
 
-<figure class="aligncenter size-full">
+<figure class="block-image">
 <img src="images/year-downloads-by-month.png" />
 </figure>
 
@@ -68,7 +68,7 @@ The month of October recorded the most downloads at **4,263,286**.
 Most searches are from Python 3.7, the default in Debian Buster (67%). Second is Python 2.7 with
 15%, followed by 3.9 (the default in Bullseye, which was only released in the summer) with 9%:
 
-<figure class="wp-block-image size-full">
+<figure class="block-image">
 <img src="images/year-py-vers.png" />
 </figure>
 
@@ -77,7 +77,7 @@ Most searches are from Python 3.7, the default in Debian Buster (67%). Second is
 armv7l (Pi 2/3/4 and Zero 2 platform) is still a majority architecture with 85% of searches from Arm
 devices, with aarch64 rising beyond 10% and armv6l (Pi 1/Zero) dropping below 4%:
 
-<figure class="wp-block-image size-full">
+<figure class="block-image">
 <img src="images/year-debian-arch.png" />
 </figure>
 
@@ -86,7 +86,7 @@ devices, with aarch64 rising beyond 10% and armv6l (Pi 1/Zero) dropping below 4%
 The vast majority of downloads are from Raspberry Pi OS (over 98%). Of these, 86% are Buster, 7.5%
 are Bullseye (released in the summer), 6.6% are Stretch.
 
-<figure class="wp-block-image size-full">
+<figure class="block-image">
 <img src="images/year-debian-usage.png" />
 </figure>
 
@@ -94,7 +94,7 @@ are Bullseye (released in the summer), 6.6% are Stretch.
 
 Our busiest hour is still between 3pm-4pm. All afternoon/evening UTC we are at our busiest:
 
-<figure class="wp-block-image size-full">
+<figure class="block-image">
 <img src="images/year-downloads-by-hour.png" />
 </figure>
 
@@ -102,7 +102,7 @@ Our busiest hour is still between 3pm-4pm. All afternoon/evening UTC we are at o
 
 We have been nearly doubling every year, but this year we more than doubled downloads:
 
-<figure class="wp-block-image size-full">
+<figure class="block-image">
 <img src="images/year-downloads-by-year.png" />
 </figure>
 

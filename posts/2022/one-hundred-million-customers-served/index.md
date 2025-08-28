@@ -1,21 +1,19 @@
 Following a substantial record breaking spike in downloads, we recently passed the **100,000,000**
 mark. That's the total number of wheel files served from piwheels to date.
 
-<figure class="wp-block-embed">
-<div class="wp-block-embed__wrapper">
+<figure class="block-embed">
 <blockquote>
 <p>Now passed 100,000,000 downloads</p>
 <p>— piwheels.org (@piwheels) <a
 href="https://twitter.com/piwheels/status/1571839180380020738?ref_src=twsrc%5Etfw">September 19,
 2022</a></p>
 </blockquote>
-</div>
 </figure>
 
 When we reached 10 million in 3 years, reaching 100 million seemed impossible, but downloads
 significantly increased year-on-year, so here we are:
 
-<figure class="aligncenter size-full">
+<figure class="block-image">
 <img src="images/downloads-per-year.png" />
 </figure>
 
@@ -25,8 +23,7 @@ Also, the daily record keeps getting beaten. Last month, the previous record of 
 when we passed 500,000 for the first time. Since then, that record has been doubled — we've now
 passed 1,000,000.
 
-<figure class="wp-block-embed">
-<div class="wp-block-embed__wrapper">
+<figure class="block-embed">
 <blockquote>
 <p>Yesterday, 1,060,767 packages were downloaded from <a
 href="https://t.co/cXm1GPsEZt">https://t.co/cXm1GPsEZt</a> (a new daily record), saving users over
@@ -35,10 +32,9 @@ href="https://t.co/cXm1GPsEZt">https://t.co/cXm1GPsEZt</a> (a new daily record),
 href="https://twitter.com/piwheels/status/1577224587934195712?ref_src=twsrc%5Etfw">October 4,
 2022</a></p>
 </blockquote>
-</div>
 </figure>
 
-<figure class="aligncenter size-full">
+<figure class="block-image">
 <img src="images/top-daily-downloads-per-year.png" />
 </figure>
 
