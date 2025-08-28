@@ -14,7 +14,7 @@ This news was originally announced by Pete Warden, software engineer at Google:
 > We now have prebuilt binaries for
 > [@TensorFlow](https://twitter.com/TensorFlow?ref_src=twsrc%5Etfw) on the
 > [@Raspberry_Pi](https://twitter.com/Raspberry_Pi?ref_src=twsrc%5Etfw), so you can use pip to
-> install 1.9 in a few seconds! <https://t.co/K2nNdYgUX0>\
+> install 1.9 in a few seconds! <https://t.co/K2nNdYgUX0>
 > Big thanks to [@ben_nuttall](https://twitter.com/ben_nuttall?ref_src=twsrc%5Etfw) and all the
 > other Pi community members who helped make this happen.
 >
