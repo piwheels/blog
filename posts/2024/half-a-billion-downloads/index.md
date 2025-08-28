@@ -1,6 +1,6 @@
 piwheels has now passed 500,000,000 downloads!
 
-<figure class="wp-block-embed is-type-rich is-provider-twitter wp-block-embed-twitter">
+<figure class="wp-block-embed">
 <div class="wp-block-embed__wrapper">
 <blockquote>
 <p>Now passed 500,000,000 downloads</p>

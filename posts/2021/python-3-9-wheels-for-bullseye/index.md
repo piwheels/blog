@@ -68,7 +68,7 @@ Clicking new issue on the numpy page brings you here, form filled in automatical
 We also added support for Twitter cards on project pages, so when people tweet links to projects,
 it'll show the piwheels logo and the project description:
 
-<figure class="wp-block-embed aligncenter is-type-rich is-provider-twitter wp-block-embed-twitter">
+<figure class="wp-block-embed">
 <div class="wp-block-embed__wrapper">
 <blockquote>
 <p><a href="https://twitter.com/waveform80?ref_src=twsrc%5Etfw">@waveform80</a> we got twitter cards

@@ -1,7 +1,7 @@
 Following a substantial record breaking spike in downloads, we recently passed the **100,000,000**
 mark. That's the total number of wheel files served from piwheels to date.
 
-<figure class="wp-block-embed is-type-rich is-provider-twitter wp-block-embed-twitter">
+<figure class="wp-block-embed">
 <div class="wp-block-embed__wrapper">
 <blockquote>
 <p>Now passed 100,000,000 downloads</p>
@@ -25,7 +25,7 @@ Also, the daily record keeps getting beaten. Last month, the previous record of 
 when we passed 500,000 for the first time. Since then, that record has been doubled — we've now
 passed 1,000,000.
 
-<figure class="wp-block-embed is-type-rich is-provider-twitter wp-block-embed-twitter">
+<figure class="wp-block-embed">
 <div class="wp-block-embed__wrapper">
 <blockquote>
 <p>Yesterday, 1,060,767 packages were downloaded from <a
