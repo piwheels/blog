@@ -71,3 +71,7 @@ blockquote p {
 blockquote p:last-of-type {
   margin-bottom: 0;
 }
+
+blockquote a:link {
+  color: #8a8a8a;
+}
