@@ -70,6 +70,10 @@ figure.block-image figcaption {
   color: black;
 }
 
+figcaption a, figcaption a:hover {
+  color: black;
+}
+
 pre, blockquote {
   background: #f0f8ff;
   margin: 1em 2em;
