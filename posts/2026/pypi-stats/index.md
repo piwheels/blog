@@ -1,5 +1,6 @@
-Back in 2021 I did some analysis of PyPI package names and version strings. Five years on, let's
-see how things have changed.
+Back in 2021 I did some analysis of PyPI package names and version strings in the post [The rinds of
+the Cheese Shop menu](../../2021/08/the-rinds-of-the-cheese-shop-menu/). Five years on, let's see
+how things have changed.
 
 At the time of writing, PyPI contains:
 
@@ -19,7 +20,7 @@ The least common lengths are **77**, **79**, **80**, **83**, **91**, **92**, **9
 The longest package names have changed quite a bit since 2021. The new list reads more like a
 stream of consciousness than a software registry:
 
-- [**zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz**](https://pypi.org/project/zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz/)
+- [**zzz...zzz**](https://pypi.org/project/zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz/)
   (188)
 - [**program-to-get-any-string-as-user-input-and-output-code-for-the-string-reverse-the-string-and-code-using-alphabet-position**](https://pypi.org/project/program-to-get-any-string-as-user-input-and-output-code-for-the-string-reverse-the-string-and-code-using-alphabet-position/)
   (122)
@@ -115,7 +116,7 @@ As in 2021, 1 is slightly over-represented and 9 slightly over-represented compa
 
 ## Number of versions per package
 
-Just over a quarter of packages (**29.3%**, or 216,019) have only a single version.
+Over a quarter of packages (**29.3%**, or 216,019) have only a single version.
 
 The package with the most versions is
 [**spanishconjugator**](https://pypi.org/project/spanishconjugator/) with a remarkable **9,475
@@ -185,7 +186,7 @@ most common:
   versions `dog` and `watwatwat` after all these years
 - The longest non-numeric version is still [**jw-util**](https://pypi.org/project/jw.util/)'s
   [`-class.-jw.util.version.Version-`](https://pypi.org/project/jw.util/-class.-jw.util.version.Version-/)
-  (32 chars) — an accidental `repr()` of a Version class that has somehow survived since 2021
+  (32 chars) — an accidental `repr()` of a Version class that has somehow survived since 2014
 
 ## King's English
 
@@ -199,5 +200,9 @@ New British-only arrivals since 2021 include **calibre**, **candour**, **equalis
 **gaol**, **kerb**, **manoeuvre**, **maths**, **rigour**, **sceptic**, **serialise**,
 **visualise**, and **waggon**.
 
-You can view the notebook and data on
-[**GitHub**](https://github.com/piwheels/stats-2016/).
+## Claude
+
+This blog post was (in part) an experiment to see if I could get Claude to generate an updated
+version of the 2021 blog post from new data. The post was manually reviewed and edited before being
+published. See the repo for further info:
+[github.com/piwheels/stats-2026](https://github.com/piwheels/stats-2026)
