@@ -1,5 +1,5 @@
 Back in 2021 I did some analysis of PyPI package names and version strings in the post [The rinds of
-the Cheese Shop menu](../../2021/08/the-rinds-of-the-cheese-shop-menu/). Five years on, let's see
+the Cheese Shop menu](/2021/08/the-rinds-of-the-cheese-shop-menu/). Five years on, let's see
 how things have changed.
 
 At the time of writing, PyPI contains:
