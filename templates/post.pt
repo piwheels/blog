@@ -1,7 +1,7 @@
 <div metal:use-macro="layout">
   <div metal:fill-slot="head" tal:omit-tag="1">
     <meta name="description" content="${post.excerpt}" />
-    <meta property="og:url" content="https://blog.piwheels.org/${post.link}" />
+    <meta property="og:url" content="${site.config.base_url}/${post.link}" />
     <meta property="og:title" content="${post.title}" />
     <meta property="og:description" content="${post.excerpt}" />
     <meta name="twitter:title" content="${post.title}" />

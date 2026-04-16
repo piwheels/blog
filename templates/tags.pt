@@ -1,10 +1,10 @@
 <div metal:use-macro="layout">
   <div metal:fill-slot="head" tal:omit-tag="1">
     <meta name="description" content="Tags index for the piwheels blog" />
-    <meta property="og:url" content="https://blog.piwheels.org/tags/" />
+    <meta property="og:url" content="${site.config.base_url}/tags/" />
     <meta property="og:title" content="Tags" />
-    <meta property="og:description" content="piwheels blog tags index" />
     <meta name="twitter:title" content="Tags" />
+    <meta property="og:description" content="piwheels blog tags index" />
     <meta name="twitter:description" content="piwheels blog tags index" />
   </div>
 
@@ -14,7 +14,7 @@
     <div class="content no-sidebar">
       <h2>Tags</h2>
       <ul>
-        <li tal:repeat="(tag, posts) tags.items()">
+        <li tal:repeat="(tag, posts) site.tags.items()">
           <a href="/tags/${tag}/">${tag.replace("-", " ")}</a> (${len(posts)})
         </li>
       </ul>

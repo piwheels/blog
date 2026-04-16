@@ -2,25 +2,25 @@
 <?xml-stylesheet type="text/xsl" href="/sitemap.xsl"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://blog.piwheels.org</loc>
+    <loc>${site.config.base_url}</loc>
   </url>
   <url>
-    <loc>https://blog.piwheels.org/archive</loc>
+    <loc>${site.config.base_url}/archive</loc>
   </url>
   <url>
-    <loc>https://blog.piwheels.org/tags</loc>
+    <loc>${site.config.base_url}/tags</loc>
   </url>
-  <url tal:repeat="post posts">
-    <loc>https://blog.piwheels.org/${post.link}</loc>
+  <url tal:repeat="post site.posts">
+    <loc>${site.config.base_url}/${post.link}</loc>
     <lastmod>${post.modified.isoformat(timespec="seconds")}</lastmod>
   </url>
-  <url tal:repeat="tag tags">
-    <loc>https://blog.piwheels.org/tags/${tag}/</loc>
+  <url tal:repeat="tag site.tags">
+    <loc>${site.config.base_url}/blog/tags/${tag}/</loc>
   </url>
   <url tal:repeat="year years">
-    <loc>https://blog.piwheels.org/${year}/</loc>
+    <loc>${site.config.base_url}/blog/${year}/</loc>
   </url>
   <url tal:repeat="(year, month) months">
-    <loc>https://blog.piwheels.org/${year}/${month}/</loc>
+    <loc>${site.config.base_url}/blog/${year}/${month}/</loc>
   </url>
 </urlset>

@@ -1,5 +1,6 @@
-templates_dir: templates
 csv_dir: csv
+templates_dir: templates
+base_url: https://blog.piwheels.org
 
 build:
   posts_dir: posts
@@ -12,4 +13,4 @@ logs:
 
 analytics:
   output_dir: analytics
-  base_url: https://blog.piwheels.org
+  manifest_path: www/manifest.json
