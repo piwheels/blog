@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title>${title}</title>
-  <link href="https://blog.piwheels.org/" />
-  <link href="https://blog.piwheels.org/atom.xml" rel="self" />
-  <id>https://blog.piwheels.org</id>
+  <title>piwheels blog</title>
+  <link href="${site.config.base_url}/" />
+  <link href="${site.config.base_url}/atom.xml" rel="self" />
+  <id>${site.config.base_url}</id>
   <author>
     <name>Ben Nuttall</name>
   </author>
-  <updated>${now.isoformat(timespec="seconds")}</updated>
+  <updated>${site.now.isoformat(timespec="seconds")}</updated>
 
-  <entry tal:repeat="post posts">
+  <entry tal:repeat="post site.posts[:10]">
     <title><![CDATA[${structure:post.title}]]></title>
-    <link href="https://blog.piwheels.org/${post.link}/" />
-    <id>https://blog.piwheels.org/${post.link}</id>
+    <link href="${site.config.base_url}/${post.link}/" />
+    <id>${site.config.base_url}/${post.link}</id>
     <published>${post.published.isoformat(timespec="seconds")}</published>
     <updated>${post.modified.isoformat(timespec="seconds")}</updated>
     <category tal:repeat="tag post.tags" term="${tag}" />
