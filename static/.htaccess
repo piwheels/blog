@@ -1,3 +1,5 @@
+RewriteEngine On
+
 RewriteRule ^notice-file-urls-subject-to-change/?$ /2025/07/notice-file-urls-subject-to-change/ [R=301,L]
 RewriteRule ^half-a-billion-downloads/?$ /2024/07/half-a-billion-downloads/ [R=301,L]
 RewriteRule ^debian-buster-eol/?$ /2024/07/debian-buster-eol/ [R=301,L]
