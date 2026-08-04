@@ -4,12 +4,14 @@ base_url: https://blog.piwheels.org
 
 build:
   posts_dir: posts
+  pages_dir: pages
   static_dir: static
   output_dir: www
 
 logs:
   logs_dir: apache2
-  pattern: "blog.piwheels.org-access*"
+  pattern: "blog.piwheels.org-access*gz"
+  live_pattern: "blog.piwheels.org-access*"
 
 analytics:
   output_dir: analytics
