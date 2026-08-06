@@ -14,7 +14,7 @@ When we reached 10 million in 3 years, reaching 100 million seemed impossible, b
 significantly increased year-on-year, so here we are:
 
 <figure class="block-image">
-<img src="images/downloads-per-year.png" />
+<img src="images/downloads-per-year.webp" />
 </figure>
 
 ## The daily record
@@ -35,7 +35,7 @@ href="https://twitter.com/piwheels/status/1577224587934195712?ref_src=twsrc%5Etf
 </figure>
 
 <figure class="block-image">
-<img src="images/top-daily-downloads-per-year.png" />
+<img src="images/top-daily-downloads-per-year.webp" />
 </figure>
 
 ## Raspberry Pi web hosting: does it scale?

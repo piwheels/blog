@@ -7,13 +7,13 @@ turned out to be an upgrade pushed to [octoprint](https://octoprint.org/) users.
 Each month had around **1.1 million** downloads:
 
 <figure class="block-image">
-<img src="images/downloads-by-month.png" />
+<img src="images/downloads-by-month.webp" />
 </figure>
 
 which saved around between **17** and **22 years** per month:
 
 <figure class="block-image">
-<img src="images/time-saved-by-month.png" />
+<img src="images/time-saved-by-month.webp" />
 </figure>
 
 **March** had the highest number of downloads ever with **1,276,799**. The highest day was **5
@@ -22,7 +22,7 @@ next two weeks dropped steadily each day, but left regular daily downloads aroun
 5-10k greater than usual.
 
 <figure class="block-image">
-<img src="images/downloads-by-day.png" />
+<img src="images/downloads-by-day.webp" />
 </figure>
 
 The top 10 downloads were:
@@ -55,21 +55,21 @@ It's still unexplained why Flask-Login got nearly double the downloads of the ot
 Raspbian still dominates usage with almost 95%:
 
 <figure class="block-image">
-<img src="images/os-usage.png" />
+<img src="images/os-usage.webp" />
 </figure>
 
 armv7l (Pi 2/3/4 platform) is still a majority architecture with 89% usage, with armv6l (Pi 1/Zero)
 taking just 8%. The combined Arm architecture takes over 97% of all usage:
 
 <figure class="block-image">
-<img src="images/arch.png" />
+<img src="images/arch.webp" />
 </figure>
 
 Python version usage changes more over time. Since Raspbian Buster was released, Python 3.7 usage
 quickly overtook Python 3.5:
 
 <figure class="block-image">
-<img src="images/py-vers.png" />
+<img src="images/py-vers.webp" />
 </figure>
 
 Interestingly, there appears to have been a spike in usage of Python 2.7. However this is purely
@@ -77,7 +77,7 @@ down to the octoprint upgrades. The four packages affected are universal Python 
 with 2 and 3.
 
 <figure class="block-image">
-<img src="images/py-vers-over-time.png" />
+<img src="images/py-vers-over-time.webp" />
 </figure>
 
 This was the busiest period for piwheels so far. The month of March was by a long way the biggest

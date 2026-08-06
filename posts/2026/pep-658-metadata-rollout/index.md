@@ -41,7 +41,7 @@ downloads:
   <li><span style="display:inline-block;width:12px;height:12px;background:#378ADD;margin-right:4px;"></span>Metadata</li>
   <li><span style="display:inline-block;width:12px;height:12px;background:#1D9E75;margin-right:4px;"></span>Wheel</li>
 </ul>
-<img src="images/metadata.png" />
+<img src="images/metadata.webp" />
 <figcaption>Metadata downloads vs wheel downloads</figcaption>
 </figure>
 

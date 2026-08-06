@@ -25,13 +25,13 @@ We provide links on each package's [project page](https://www.piwheels.org/proje
 create a GitHub issue if they find a missing package:
 
 <figure class="block-image">
-<a href="https://www.piwheels.org/project/numpy/"><img src="images/piwheels-issue-links.png" /></a>
+<a href="https://www.piwheels.org/project/numpy/"><img src="images/piwheels-issue-links.webp" /></a>
 </figure>
 
 We provide issue templates for people to fill out, to give us all the information we need:
 
 <figure class="block-image">
-<a href="https://github.com/piwheels/packages/issues/new/choose"><img src="images/piwheels-issue-templlate.png" /></a>
+<a href="https://github.com/piwheels/packages/issues/new/choose"><img src="images/piwheels-issue-templlate.webp" /></a>
 </figure>
 
 But most people don't fill these out, which is really unhelpful.

@@ -22,7 +22,7 @@ Apart from January, each month had over **2 million downloads**. The last three 
 **3.5 million**.
 
 <figure class="block-image">
-<img src="images/year-downloads-by-month.png" />
+<img src="images/year-downloads-by-month.webp" />
 </figure>
 
 12 October 2021 was the biggest day on record, with ****314,030**** downloads.
@@ -69,7 +69,7 @@ Most searches are from Python 3.7, the default in Debian Buster (67%). Second is
 15%, followed by 3.9 (the default in Bullseye, which was only released in the summer) with 9%:
 
 <figure class="block-image">
-<img src="images/year-py-vers.png" />
+<img src="images/year-py-vers.webp" />
 </figure>
 
 ## Architectures
@@ -78,7 +78,7 @@ armv7l (Pi 2/3/4 and Zero 2 platform) is still a majority architecture with 85% 
 devices, with aarch64 rising beyond 10% and armv6l (Pi 1/Zero) dropping below 4%:
 
 <figure class="block-image">
-<img src="images/year-debian-arch.png" />
+<img src="images/year-debian-arch.webp" />
 </figure>
 
 ## Operating systems
@@ -87,7 +87,7 @@ The vast majority of downloads are from Raspberry Pi OS (over 98%). Of these, 86
 are Bullseye (released in the summer), 6.6% are Stretch.
 
 <figure class="block-image">
-<img src="images/year-debian-usage.png" />
+<img src="images/year-debian-usage.webp" />
 </figure>
 
 ## Downloads through the day
@@ -95,7 +95,7 @@ are Bullseye (released in the summer), 6.6% are Stretch.
 Our busiest hour is still between 3pm-4pm. All afternoon/evening UTC we are at our busiest:
 
 <figure class="block-image">
-<img src="images/year-downloads-by-hour.png" />
+<img src="images/year-downloads-by-hour.webp" />
 </figure>
 
 ## Year-on-year
@@ -103,7 +103,7 @@ Our busiest hour is still between 3pm-4pm. All afternoon/evening UTC we are at o
 We have been nearly doubling every year, but this year we more than doubled downloads:
 
 <figure class="block-image">
-<img src="images/year-downloads-by-year.png" />
+<img src="images/year-downloads-by-year.webp" />
 </figure>
 
 Check out the source of this post in a Jupyter notebook:

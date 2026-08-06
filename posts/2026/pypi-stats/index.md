@@ -27,7 +27,7 @@ stream of consciousness than a software registry:
 - [**red-does-not-support-this-version-of-python-please-follow-one-of-the-install-guides-at-docs-discord-red**](https://pypi.org/project/red-does-not-support-this-version-of-python-please-follow-one-of-the-install-guides-at-docs-discord-red/)
   (103) — a package that exists solely to tell you it doesn't support your Python version
 
-![Package name length distribution](images/chart_09_01.png)
+![Package name length distribution](images/chart_09_01.webp)
 
 ## Shortest package names
 
@@ -42,30 +42,30 @@ So the only separator that appears in a canonicalised name is the hyphen.
 Of the 736,344 packages, **53.7%** (395,184) contain at least one hyphen, while **46.3%**
 (341,160) have no separator at all.
 
-![Package name separator usage](images/chart_07_00.png)
+![Package name separator usage](images/chart_07_00.webp)
 
 ## Starting characters
 
 The most common starting character is **p** (12.5%), thanks to the dominance of `py-` and
 `python-` prefixed packages. The least common is **9** with just 16 packages.
 
-![Distribution of first character](images/chart_11_02.png)
+![Distribution of first character](images/chart_11_02.webp)
 
 Looking at the first two characters, the top five are **py**, **od**, **dj**, **co**, and **re**.
 **od** (for `odoo`) has pushed its way into second place since 2021, when it didn't feature at all.
 
-![Top 20 first two characters](images/chart_12_03.png)
+![Top 20 first two characters](images/chart_12_03.webp)
 
 Looking at the first three characters, **odo** has overtaken **dja** into second place behind
 **pyt**:
 
-![Top 20 first three characters](images/chart_13_04.png)
+![Top 20 first three characters](images/chart_13_04.webp)
 
 ## Common prefixes
 
 What are the most popular hyphenated prefixes?
 
-![Top 30 package name prefixes](images/chart_15_05.png)
+![Top 30 package name prefixes](images/chart_15_05.webp)
 
 **django-** remains by far the most common prefix with **16,046** packages. But the most striking
 story is **odoo**: counting `odoo-` and all its versioned variants (`odoo14-`, `odoo13-`,
@@ -86,7 +86,7 @@ New entrants since 2021 reflecting the AI ecosystem boom:
 Flipping the analysis around, the most common suffixes tell a story about how packages are
 categorised by purpose:
 
-![Top 30 package name suffixes](images/chart_18_06.png)
+![Top 30 package name suffixes](images/chart_18_06.webp)
 
 `-client` (6,898), `-sdk` (6,315), and `-cli` (6,099) top the list. `-mcp` sits in fifth place
 with 4,730 packages — another sign of the AI era — while `-ai` (1,721) and `-agent` (1,089) are
@@ -96,7 +96,7 @@ also well represented.
 
 Splitting package names on hyphens, underscores, and dots, the most common individual words are:
 
-![Top 30 words in package names](images/chart_20_07.png)
+![Top 30 words in package names](images/chart_20_07.webp)
 
 `addon` (18,357) edges out `django` (17,464) at the top — most addon packages are Odoo addons.
 `mcp` (13,420) is in third place, ahead of `python` (12,648). `ai` (3,914) and `agent` (2,391)
@@ -110,7 +110,7 @@ version numbers, the pattern holds in 2026 much as it did in 2021 — the first 
 version numbers broadly follows the expected distribution, with the fit becoming closer still when
 looking at all digits:
 
-![Benford's Law](images/chart_22_08.png)
+![Benford's Law](images/chart_22_08.webp)
 
 As in 2021, 1 is slightly over-represented and 9 slightly over-represented compared to expectation.
 
@@ -123,7 +123,7 @@ The package with the most versions is
 versions**, more than three times the 2021 record holder
 ([pulumi](https://pypi.org/project/pulumi/), with 2,566).
 
-![Versions per package](images/chart_24_09.png)
+![Versions per package](images/chart_24_09.webp)
 
 ## Version length
 
@@ -142,7 +142,7 @@ characters:
 [**lyricsprocessor**](https://pypi.org/project/lyricsprocessor/) retains its 84-character
 `0.1.404040...` version in second place, still going strong five years later.
 
-![Version length distribution](images/chart_26_10.png)
+![Version length distribution](images/chart_26_10.webp)
 
 ## Version schemes
 
@@ -160,7 +160,7 @@ characters:
 Over half of all versions — **52.3%** — still carry major version 0, indicating the package is
 considered pre-stable by its author.
 
-![Version scheme distribution](images/chart_28_11.png)
+![Version scheme distribution](images/chart_28_11.webp)
 
 ## Pre-release versions
 
@@ -175,7 +175,7 @@ most common:
 | `rc` | 150,236 | 1.82% |
 | `post` | 101,526 | 1.23% |
 
-![Pre-release version tags](images/chart_30_12.png)
+![Pre-release version tags](images/chart_30_12.webp)
 
 ## Non-numeric versions
 

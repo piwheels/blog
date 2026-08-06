@@ -27,7 +27,7 @@ might fail there too, depending on the reason for failure, but it's worth trying
 be that it has a minimum Python version requirement of, say, 3.5. Here's a diagram of the logic:
 
 <figure class="block-image">
-<img src="images/piwheels.png" />
+<img src="images/piwheels.webp" />
 </figure>
 
 Once we got piwheels up and running again, we had a lot to catch up on. There were nearly 200,000
@@ -41,7 +41,7 @@ we'll reimage most of the builders to Buster to finish up, and then retire them,
 within a week.
 
 <figure class="block-image">
-<img src="images/Screenshot-from-2019-07-07-16-41-22-957x1024.png" />
+<img src="images/Screenshot-from-2019-07-07-16-41-22-957x1024.webp" />
 </figure>
 
 If you want to see how far through we've got, looking at the project page of a package with regular

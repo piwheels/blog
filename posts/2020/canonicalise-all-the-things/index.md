@@ -40,11 +40,11 @@ directory at **piwheels.org/simple** containing a directory per package, each co
 associated with that package.
 
 <figure class="block-image">
-<img src="images/Screenshot-from-2020-09-19-02-09-48-1024x753.png" />
+<img src="images/Screenshot-from-2020-09-19-02-09-48-1024x753.webp" />
 </figure>
 
 <figure class="block-image">
-<img src="images/Screenshot-from-2020-09-19-02-12-59-1024x682.png" />
+<img src="images/Screenshot-from-2020-09-19-02-12-59-1024x682.webp" />
 </figure>
 
 If a package used a non-canonical form (like `Flask`), we'd create a symlink from `Flask` to

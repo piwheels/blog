@@ -5,7 +5,7 @@ package releases on Buster, for the `cp37m` ABI. We will not delete existing `cp
 not build any new ones.
 
 <figure class="block-image">
-<img src="images/buster.jpg" />
+<img src="images/buster.webp" />
 <figcaption>Thank you for your service, Buster. You were a good boy.</figcaption>
 </figure>
 

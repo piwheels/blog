@@ -13,7 +13,7 @@ it's not a new architecture. Like the Pi3/3+ it contains an Armv8 CPU which gene
 will work on it, but so will Armv6 code, just like the Pi 2 and 3.
 
 <figure class="block-image">
-<img src="images/raspberry-pi-4-1024x732.jpg" />
+<img src="images/raspberry-pi-4-1024x732.webp" />
 </figure>
 
 ## Raspbian Buster
@@ -22,7 +22,7 @@ Whether you're on a Pi 1, 2, 3, 4 or Zero, you can and should use Raspbian Buste
 recommended and supported operating system for all Raspberry Pi models.
 
 <figure class="block-image">
-<img src="images/buster-1024x576.jpg" />
+<img src="images/buster-1024x576.webp" />
 </figure>
 
 Raspbian Buster ships **Python 3.7** — which means a whole new set of wheels is required for pip

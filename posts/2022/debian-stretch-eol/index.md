@@ -5,7 +5,7 @@ package releases on Stretch, for the cp35m ABI. We will not delete existing cp35
 build any new ones.
 
 <figure class="block-image">
-<img src="images/Stretch-1024x576.jpg" />
+<img src="images/Stretch-1024x576.webp" />
 <figcaption>Thank you for your service, Stretch</figcaption>
 </figure>
 

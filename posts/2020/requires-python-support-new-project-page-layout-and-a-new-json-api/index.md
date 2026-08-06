@@ -17,7 +17,7 @@ package) to identify compatible wheels, which could mean choosing an older versi
 which supports your version of Python rather than let you download a version you cannot use.
 
 <figure class="block-image">
-<img src="images/Screenshot-from-2020-09-23-00-10-02.png" />
+<img src="images/Screenshot-from-2020-09-23-00-10-02.webp" />
 </figure>
 
 An example of this is a Python 3.5 user trying to use the latest version of a package which recently
@@ -37,7 +37,7 @@ index](https://www.piwheels.org/simple/numpy/) and [project
 page](https://www.piwheels.org/project/numpy/).
 
 <figure class="block-image">
-<img src="images/Screenshot-from-2020-09-23-00-16-17-1024x769.png" />
+<img src="images/Screenshot-from-2020-09-23-00-16-17-1024x769.webp" />
 <figcaption>PyPI's project page</figcaption>
 </figure>
 
@@ -47,7 +47,7 @@ they started using when they launched the current platform
 of a package, and then the list of wheel files we had built.
 
 <figure class="block-image">
-<img src="images/Screenshot-from-2020-09-19-02-12-59-1024x682.png" />
+<img src="images/Screenshot-from-2020-09-19-02-12-59-1024x682.webp" />
 <figcaption>piwheels project page (old style)</figcaption>
 </figure>
 
@@ -56,7 +56,7 @@ dependencies of each file is available, so you can look up the system requiremen
 latest version, but any past version on Jessie, Stretch or Buster.
 
 <figure class="block-image">
-<img src="images/Screenshot-from-2020-09-23-00-10-39-1024x655.png" />
+<img src="images/Screenshot-from-2020-09-23-00-10-39-1024x655.webp" />
 <figcaption>piwheels project page (new style)</figcaption>
 </figure>
 
@@ -69,7 +69,7 @@ You can also search the package issues from a single click using a client-side r
 which uses the GitHub API:
 
 <figure class="block-image">
-<img src="images/Screenshot-from-2020-09-22-21-26-13.png" />
+<img src="images/Screenshot-from-2020-09-22-21-26-13.webp" />
 </figure>
 
 We hope people will find the new project pages more understandable and more useful.
@@ -90,7 +90,7 @@ branch. But recently I picked up the idea again and managed to complete it, alon
 focused on the new project pages.
 
 <figure class="block-image">
-<img src="images/Screenshot-from-2020-09-23-00-21-50.png" />
+<img src="images/Screenshot-from-2020-09-23-00-21-50.webp" />
 <figcaption>The piwheels JSON API</figcaption>
 </figure>
 

@@ -9,14 +9,14 @@ This continued rising. 5 March saw another new record of **60,324**. 6 March saw
 **52,879**.
 
 <figure class="block-image">
-<img src="images/downloads-by-day.png" />
+<img src="images/downloads-by-day.webp" />
 </figure>
 
 Broken down by the hour, you can see each day's bell curve, and the massive increase during those
 three days:
 
 <figure class="block-image">
-<img src="images/downloads-by-hour.png" />
+<img src="images/downloads-by-hour.webp" />
 </figure>
 
 ## What's being downloaded?
@@ -25,13 +25,13 @@ Looking at the top 10 most downloaded packages on 3 March, the day before the sp
 see **pycparser** topped the bill with **1,908** downloads, followed by **numpy** with **896**:
 
 <figure class="block-image">
-<img src="images/top-10-3march-1.png" />
+<img src="images/top-10-3march-1.webp" />
 </figure>
 
 Here are the top 10 on 5 March, on the same scale:
 
 <figure class="block-image">
-<img src="images/top-10-5march-1.png" />
+<img src="images/top-10-5march-1.webp" />
 </figure>
 
 Unexpectedly, four packages appear at the top, overshadowing the usual suspects.
@@ -46,7 +46,7 @@ On 3 March the total number of downloads for these four packages combined was ju
 **24,256** on 5 March:
 
 <figure class="block-image">
-<img src="images/unexpected-downloads-2.png" />
+<img src="images/unexpected-downloads-2.webp" />
 </figure>
 
 Four of the most popular packages are **[pycparser](https://www.piwheels.org/project/pycparser/)**,
@@ -56,7 +56,7 @@ Four of the most popular packages are **[pycparser](https://www.piwheels.org/pro
 four spiking packages over the last week:
 
 <figure class="block-image">
-<img src="images/package-downloads-by-day.png" />
+<img src="images/package-downloads-by-day.webp" />
 </figure>
 
 ## What about these packages?
@@ -81,7 +81,7 @@ four spiking packages over the last week:
 So do these packages account for the spike alone?
 
 <figure class="block-image">
-<img src="images/daily-without-anomolies.png" />
+<img src="images/daily-without-anomolies.webp" />
 </figure>
 
 It certainly seems so. Subtracting those four packages from the totals levels out the graph.
@@ -103,7 +103,7 @@ Here's a dependency graph I made with
 **[graphviz](https://www.graphviz.org/)**:
 
 <figure class="block-image">
-<img src="images/pip-dep-tree-1024x239.png" />
+<img src="images/pip-dep-tree-1024x239.webp" />
 </figure>
 
 Another oddity is that none of the dependency packages show up at all. **Flask** had just **16**

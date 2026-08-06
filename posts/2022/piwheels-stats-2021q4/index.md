@@ -4,24 +4,24 @@ in total! There were **58,871,182** pip searches, **886,179** project page hits,
 page hits and **294,252** project JSON downloads in the period.
 
 <figure class="block-image">
-<img src="images/downloads-by-month.png" />
+<img src="images/downloads-by-month.webp" />
 </figure>
 
 In the previous quarter, only 7 days surpassed **100k** downloads. In this period, most days did. 5
 days surpassed **200k**, 3 surpassed **250k**, and one surpassed **300k**.
 
 <figure class="block-image">
-<img src="images/downloads-by-day.png" />
+<img src="images/downloads-by-day.webp" />
 </figure>
 
 <figure class="block-image">
-<img src="images/searches-by-day.png" />
+<img src="images/searches-by-day.webp" />
 </figure>
 
 Downloads saved around between **13** and **17** years per month:
 
 <figure class="block-image">
-<img src="images/time-saved-by-month.png" />
+<img src="images/time-saved-by-month.webp" />
 </figure>
 
 The top 10 downloads were:
@@ -87,7 +87,7 @@ dominates with over 98%. Ubuntu remains in third place with only 0.7%, although 
 support it.
 
 <figure class="block-image">
-<img src="images/distro-usage.png" />
+<img src="images/distro-usage.webp" />
 </figure>
 
 The latest OS release, Bullseye, has taken a sizeable chunk of the share (25%), but it's far from
@@ -96,7 +96,7 @@ issues](https://www.raspberrypi.com/news/new-old-functionality-with-raspberry-pi
 e.g. picamera. Stretch has dropped to under 7% and there's practically no Jessie usage.
 
 <figure class="block-image">
-<img src="images/debian-usage.png" />
+<img src="images/debian-usage.webp" />
 </figure>
 
 armv7l (Pi 2/3/4 — and now Zero 2) is still a majority architecture with 95% of searches from Arm
@@ -105,7 +105,7 @@ and armv6l combined, but this spike has diminished, although aarch64 still (just
 4.6% to 3.5%:
 
 <figure class="block-image">
-<img src="images/arch.png" />
+<img src="images/arch.webp" />
 </figure>
 
 Python 3 has an overwhelming majority of usage (88%), and 3.7 (the version provided by Buster) has
@@ -113,17 +113,17 @@ the highest share with 54%. Bullseye's Python 3.9 now comes second with 24% and 
 third with 15%:
 
 <figure class="block-image">
-<img src="images/py-vers.png" />
+<img src="images/py-vers.webp" />
 </figure>
 
 We're also logging pip and setuptools versions:
 
 <figure class="block-image">
-<img src="images/pip-vers.png" />
+<img src="images/pip-vers.webp" />
 </figure>
 
 <figure class="block-image">
-<img src="images/setuptools-vers.png" />
+<img src="images/setuptools-vers.webp" />
 </figure>
 
 We see over **5TB** of bandwidth each month, peaking at **5.54TB** in November. The breakdown of
@@ -132,13 +132,13 @@ traffic (project pages, JSON, etc) and the rest (surprisingly high, 17.5%) compr
 direct wheel downloads not from pip (e.g. browsers):
 
 <figure class="block-image">
-<img src="images/bandwidth.png" />
+<img src="images/bandwidth.webp" />
 </figure>
 
 And broken down by month:
 
 <figure class="block-image">
-<img src="images/bandwidth-by-month-1.png" />
+<img src="images/bandwidth-by-month-1.webp" />
 </figure>
 
 Check out the source of this post in a Jupyter notebook:

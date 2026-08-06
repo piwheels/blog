@@ -7,7 +7,7 @@ We've added a Bullseye column to the versions table on project pages to show the
 build:
 
 <figure class="block-image">
-<img src="images/Screenshot-2021-07-22-at-00.19.50-1024x294.png" />
+<img src="images/Screenshot-2021-07-22-at-00.19.50-1024x294.webp" />
 </figure>
 
 When piwheels started, we built for Jessie (Python 3.4), and moved onto Stretch (Python 3.5) when it
@@ -16,7 +16,7 @@ this. Although Python 3.5 itself is EOL, Debian Stretch still has another year o
 continue building on it until then:
 
 <figure class="block-image">
-<img src="images/Screenshot-2021-07-22-at-00.42.28-1024x293.png" />
+<img src="images/Screenshot-2021-07-22-at-00.42.28-1024x293.webp" />
 </figure>
 
 We employed a scaled-up approach to clearing the cp39 backlog, provisioning 22 Raspberry Pi 4s to
@@ -24,7 +24,7 @@ work their way through attempting to build wheels of everything in the queue. On
 we dropped back to around 5 Pis per ABI in order to keep up with new releases.
 
 <figure class="block-image">
-<img src="images/Screenshot-from-2021-08-01-11-13-03-904x1024.png" />
+<img src="images/Screenshot-from-2021-08-01-11-13-03-904x1024.webp" />
 <figcaption>The piwheels monitor once the queue had cleared</figcaption>
 </figure>
 
@@ -56,13 +56,13 @@ completes the form, allowing people to give extra information and not be able to
 filling out all the required fields.
 
 <figure class="block-image">
-<img src="images/Screenshot-2021-07-22-at-00.52.51.png" />
+<img src="images/Screenshot-2021-07-22-at-00.52.51.webp" />
 </figure>
 
 Clicking new issue on the numpy page brings you here, form filled in automatically:
 
 <figure class="block-image">
-<img src="images/Screenshot-2021-07-22-at-00.53.44-814x1024.png" />
+<img src="images/Screenshot-2021-07-22-at-00.53.44-814x1024.webp" />
 </figure>
 
 We also added support for Twitter cards on project pages, so when people tweet links to projects,

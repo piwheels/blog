@@ -23,7 +23,7 @@ Apart from February (short month, slightly under), each month had over **1 milli
 of the last five months had over **1.5 million**.
 
 <figure class="block-image">
-<img src="images/downloads-by-month-1.png" />
+<img src="images/downloads-by-month-1.webp" />
 </figure>
 
 15 December 2020 was the biggest day on record, with **105,826** downloads.
@@ -73,7 +73,7 @@ Most searches are from Python 3.7, the default in Debian Buster (55%). Second is
 31%, followed by 3.5 (the default in Stretch) with 7.5%:
 
 <figure class="block-image">
-<img src="images/py-vers-1.png" />
+<img src="images/py-vers-1.webp" />
 </figure>
 
 ## Architectures
@@ -82,7 +82,7 @@ armv7l (Pi 2/3/4 platform) is still a majority architecture with 91% of searches
 with armv6l (Pi 1/Zero) taking under 5%:
 
 <figure class="block-image">
-<img src="images/debian-arch-1.png" />
+<img src="images/debian-arch-1.webp" />
 </figure>
 
 Raspberry Pi released a beta of a 64-bit version of the official OS earlier in the year, and that's
@@ -95,7 +95,7 @@ The vast majority of downloads are from Raspbian / Pi OS (over 98%). Of these, 7
 are Stretch and practically none are Jessie:
 
 <figure class="block-image">
-<img src="images/debian-usage-1.png" />
+<img src="images/debian-usage-1.webp" />
 </figure>
 
 ## Downloads through the day
@@ -104,7 +104,7 @@ Our busiest hour has moved earlier in the day, now between 3pm-4pm. All afternoo
 at our busiest:
 
 <figure class="block-image">
-<img src="images/downloads-by-hour-1.png" />
+<img src="images/downloads-by-hour-1.webp" />
 </figure>
 
 ## 2020 features

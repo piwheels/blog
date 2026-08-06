@@ -6,7 +6,7 @@ page hits in the period.
 **August** had the highest number of downloads (ever) with **1,737,186**:
 
 <figure class="block-image is-resized">
-<img src="images/downloads-by-month.png" />
+<img src="images/downloads-by-month.webp" />
 </figure>
 
 There was a sharp and largely sustained rise in downloads in early August, which seemed to be
@@ -15,17 +15,17 @@ by an OctoPrint upgrade. Downloads jumped from **36,444** on 3 August to a new a
 **77,267** on 5 August:
 
 <figure class="block-image">
-<img src="images/downloads-by-day.png" />
+<img src="images/downloads-by-day.webp" />
 </figure>
 
 <figure class="block-image">
-<img src="images/searches-by-day.png" />
+<img src="images/searches-by-day.webp" />
 </figure>
 
 Downloads saved around between **23** and **30** years per month:
 
 <figure class="block-image">
-<img src="images/time-saved-by-month.png" />
+<img src="images/time-saved-by-month.webp" />
 </figure>
 
 The top 10 downloads were:
@@ -83,14 +83,14 @@ dominates with over 95%. Ubuntu remains in third place with under 2%, although w
 support it.
 
 <figure class="block-image is-resized">
-<img src="images/distro-usage.png" />
+<img src="images/distro-usage.webp" />
 </figure>
 
 Buster accounts for 79% of Raspbian/Debian usage, Stretch accounts for 21% and there's practically
 no Jessie usage:
 
 <figure class="block-image">
-<img src="images/debian-usage.png" />
+<img src="images/debian-usage.webp" />
 </figure>
 
 armv7l (Pi 2/3/4 platform) is still a majority architecture with 93% of searches from Arm devices,
@@ -99,7 +99,7 @@ of the official OS, so that's bound to grow in usage from now on. It's currently
 those users are currently not served by piwheels as we don't build aarch64 platform wheels.
 
 <figure class="block-image">
-<img src="images/debian-arch.png" />
+<img src="images/debian-arch.webp" />
 </figure>
 
 Python 3 has a reasonable majority of usage, and 3.7 (the version provided by the current stable
@@ -108,20 +108,20 @@ oldstable), 3.8 and 3.6. Fortunately, Python 3.4 (in Jessie, now EOL) has an ins
 but it's a shame there's still so much Python 2 usage.
 
 <figure class="block-image">
-<img src="images/py-vers.png" />
+<img src="images/py-vers.webp" />
 </figure>
 
 We're now also logging pip and setuptools versions:
 
 <figure class="block-image">
-<img src="images/pip-vers-1.png" />
+<img src="images/pip-vers-1.webp" />
 </figure>
 
 Note that 18.1 is pre-installed in Buster, and 9.0.1 is pre-installed in Stretch. 20.1.1 is a
 recently released version, so likely the most common for people who update their pip.
 
 <figure class="block-image">
-<img src="images/setuptools-vers-1.png" />
+<img src="images/setuptools-vers-1.webp" />
 </figure>
 
 Similarly, setuptools 40.8.0 is what's pre-installed in Buster, but the version of pip in Stretch

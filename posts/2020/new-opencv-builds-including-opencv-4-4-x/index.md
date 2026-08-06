@@ -8,7 +8,7 @@ up to version 4.4.0.44 on Buster and 4.4.0.42 on Stretch:
 - [opencv-python-headless](https://www.piwheels.org/project/opencv-python-headless)
 
 <figure class="block-image">
-<a href="https://www.piwheels.org/project/opencv-python"><img src="images/Screenshot-from-2020-09-28-01-11-04-1024x502.png" /></a>
+<a href="https://www.piwheels.org/project/opencv-python"><img src="images/Screenshot-from-2020-09-28-01-11-04-1024x502.webp" /></a>
 </figure>
 
 There's currently no source distribution provided for the contrib packages.
@@ -19,7 +19,7 @@ upgrades](https://blog.piwheels.org/requires-python-support-new-project-page-lay
 you can now view dependencies per file for the first time (not just the latest one):
 
 <figure class="block-image">
-<a href="https://www.piwheels.org/project/opencv-python/"><img src="images/Screenshot-from-2020-09-28-01-10-38-1024x476.png" /></a>
+<a href="https://www.piwheels.org/project/opencv-python/"><img src="images/Screenshot-from-2020-09-28-01-10-38-1024x476.webp" /></a>
 </figure>
 
 ## opencv-python

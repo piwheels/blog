@@ -7,7 +7,7 @@ building new package releases on Jessie, for the cp34m ABI. We will not delete e
 wheels, just not build any new ones.
 
 <figure class="block-image">
-<img src="images/Jessie_Toy_Story.png" />
+<img src="images/Jessie_Toy_Story.webp" />
 <figcaption>Thank you for your service, Jessie</figcaption>
 </figure>
 

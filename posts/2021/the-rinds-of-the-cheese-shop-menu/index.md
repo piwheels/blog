@@ -6,7 +6,7 @@ I often find myself staring at the piwheels monitor, and occasionally a strange 
 unusually longer version number pops up:
 
 <figure class="block-image">
-<img src="images/Screenshot-from-2021-07-28-21-36-08-904x1024.png" />
+<img src="images/Screenshot-from-2021-07-28-21-36-08-904x1024.webp" />
 </figure>
 
 I've been doing a lot of auditing piwheels vs PyPI lately, making sure we have the right set of
@@ -26,7 +26,7 @@ The most common length of package name is **8** characters (like
 [**gpiozero**](https://pypi.org/project/gpiozero/)):
 
 <figure class="block-image">
-<img src="images/package_name_len_bar.png" />
+<img src="images/package_name_len_bar.webp" />
 </figure>
 
 The least common package name lengths are **72**, **73**, **74**, **75**, **80**, **82**, **83**,
@@ -44,11 +44,11 @@ The longest package names are:
     (82)
 
 <figure class="block-image">
-<img src="images/package_name_len_pie.png" />
+<img src="images/package_name_len_pie.webp" />
 </figure>
 
 <figure class="block-image">
-<img src="images/test.png" />
+<img src="images/test.webp" />
 </figure>
 
 ## Starting characters
@@ -58,7 +58,7 @@ named "py"-something or "python"-something. Second is **d** (9%) due to "django-
 The distribution for the rest of the character set is:
 
 <figure class="block-image">
-<img src="images/pkg_first_letter_pie.png" />
+<img src="images/pkg_first_letter_pie.webp" />
 </figure>
 
 The least common starting character is **9**. Only five packages start with a 9:
@@ -72,13 +72,13 @@ The least common starting character is **9**. Only five packages start with a 9:
 Looking at the first two characters, the most common are **py**, **dj**, **od**, **co** and **re**:
 
 <figure class="block-image">
-<img src="images/pkg_first_two_letters_bar-1.png" />
+<img src="images/pkg_first_two_letters_bar-1.webp" />
 </figure>
 
 Looking at the first three characters, **dja** takes over **py**:
 
 <figure class="block-image">
-<img src="images/pkg_first_three_letters_bar.png" />
+<img src="images/pkg_first_three_letters_bar.webp" />
 </figure>
 
 ## Benford's Law
@@ -90,14 +90,14 @@ package version numbers. Taking the numeric versions, and looking at the first n
 distribution is reasonably compliant with Benford's Law:
 
 <figure class="block-image">
-<img src="images/bar_with_benford_fd.png" />
+<img src="images/bar_with_benford_fd.webp" />
 </figure>
 
 However, looking at the distribution of all digits (not just the first), this follows the pattern
 laid out by Benford's Law much more closely:
 
 <figure class="block-image">
-<img src="images/bar_with_benford.png" />
+<img src="images/bar_with_benford.webp" />
 </figure>
 
 In both cases, 1 is more common that expected, 2 seems to be perfectly aligned, but 9 is slightly
@@ -110,7 +110,7 @@ the rest of them, over a quarter only have a single version. The frequency drops
 number of versions rises:
 
 <figure class="block-image">
-<img src="images/vers_per_package.png" />
+<img src="images/vers_per_package.webp" />
 </figure>
 
 The package with the most versions is **[pulumi](https://pypi.org/project/pulumi/)** with **2,566**
@@ -135,11 +135,11 @@ they can be *any* string.
     [**1.0dev-BZR-r115-panta-elasticworld.org-20100520155735-sf3yrsr0pvyvlm8m**](https://pypi.org/project/softwarefabrica.django.utils/1.0dev-BZR-r115-panta-elasticworld.org-20100520155735-sf3yrsr0pvyvlm8m/)
 
 <figure class="block-image">
-<img src="images/ver_lens.png" />
+<img src="images/ver_lens.webp" />
 </figure>
 
 <figure class="block-image">
-<img src="images/Screenshot-from-2021-08-01-15-54-23-1024x275.png" />
+<img src="images/Screenshot-from-2021-08-01-15-54-23-1024x275.webp" />
 </figure>
 
 At one point in PyPI's history, someone accidentally submitted the description of their package as
@@ -159,7 +159,7 @@ You might also be interested in the similar POSIX IPC module at: http://semanchu
 Yes, that entire block of text. The version has now been deleted.
 
 <figure class="block-image">
-<img src="images/photo6021784590307407545-1-1024x486.jpg" />
+<img src="images/photo6021784590307407545-1-1024x486.webp" />
 <figcaption>The truncated version number appearing on piwheels, prior to its deletion</figcaption>
 </figure>
 
@@ -168,7 +168,7 @@ Other times this kind of thing has happened by accident include the first versio
 Reitz](https://pypi.org/project/omnijson/Kenneth%20Reitz/)**" and is still live:
 
 <figure class="block-image">
-<img src="images/photo6048744782924200107.jpg" />
+<img src="images/photo6048744782924200107.webp" />
 </figure>
 
 ## Whitespace significance?
@@ -193,7 +193,7 @@ if there were others. There are 16 versions on PyPI which end in a newline chara
 Visually, on PyPI, these look identical:
 
 <figure class="block-image">
-<img src="images/Screenshot-from-2021-08-01-16-49-49.png" />
+<img src="images/Screenshot-from-2021-08-01-16-49-49.webp" />
 <figcaption><a href="https://pypi.org/project/bugzilla/#history">Bugzilla</a> v1 – but which
 one??</figcaption>
 </figure>
@@ -211,7 +211,7 @@ numbers in them.
 This version number of **jw-util** seems to have been another accident:
 
 <figure class="block-image">
-<img src="images/Screenshot-from-2021-08-01-16-04-29.png" />
+<img src="images/Screenshot-from-2021-08-01-16-04-29.webp" />
 </figure>
 
 Since the version included a tarball in its

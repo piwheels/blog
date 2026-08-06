@@ -7,7 +7,7 @@ armv7 and armv6 wheels for the cp313 ABI, and we're pleased to announce we've co
 and fully support Trixie at the time of launch.
 
 <figure class="block-image">
-<img src="images/trixie.png" />
+<img src="images/trixie.webp" />
 </figure>
 
 When we started the piwheels project, there were around 106,000 packages. Now there are over

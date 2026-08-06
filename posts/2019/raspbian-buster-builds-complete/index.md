@@ -9,7 +9,7 @@ It's amazing how few packages actually require compilation, but for the ones tha
 wheel makes a big difference.
 
 <figure class="block-image">
-<img src="images/Screenshot-from-2019-07-18-18-17-42-1024x868.png" />
+<img src="images/Screenshot-from-2019-07-18-18-17-42-1024x868.webp" />
 <figcaption>Staring at these two terminal screens has been my life for the last few
 weeks</figcaption>
 </figure>
@@ -28,7 +28,7 @@ point at the old location, but the issue templates refer people to the right pla
 update soon and the project pages will be regenerated with the new URLs.
 
 <figure class="block-image">
-<img src="images/Screenshot-from-2019-07-18-18-19-40.png" />
+<img src="images/Screenshot-from-2019-07-18-18-19-40.webp" />
 </figure>
 
 ## Python 3.8?
@@ -45,7 +45,7 @@ Bullseye. But that's two years away, so let's wait and see.
 
 
 <figure class="block-image">
-<img src="images/bullseye-901x1024.jpg" />
+<img src="images/bullseye-901x1024.webp" />
 <figcaption>Debian 11 – Bullseye – but what snake will be in Woody's boot?</figcaption>
 </figure>
 

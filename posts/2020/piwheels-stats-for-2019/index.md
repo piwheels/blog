@@ -22,13 +22,13 @@ files were downloaded, taking the total to **51TB**.
 Each month had over **500,000** downloads, reaching over **1 million** in November and December:
 
 <figure class="block-image">
-<img src="images/downloads-2019.png" />
+<img src="images/downloads-2019.webp" />
 </figure>
 
 Each month saved over 7 years, topping out at 17 years:
 
 <figure class="block-image">
-<img src="images/time-saved-2019.png" />
+<img src="images/time-saved-2019.webp" />
 </figure>
 
 - 4 December 2019 was the biggest day on record, with **39,153** downloads.
@@ -77,7 +77,7 @@ At the start of the year, most downloads were for Python 3.5 which is in Raspbia
 soon as Buster was released, Python 3.7 began to take over:
 
 <figure class="block-image">
-<img src="images/pyvers2019.png" />
+<img src="images/pyvers2019.webp" />
 </figure>
 
 There's a steady trickle of Python 2.7 downloads, but note that this does not fairly represent
@@ -93,7 +93,7 @@ accounted a huge majority of downloads (88% in 2018), and it's pretty much staye
 through 2019:
 
 <figure class="block-image">
-<img src="images/arch2019.png" />
+<img src="images/arch2019.webp" />
 </figure>
 
 ## Operating systems
@@ -102,7 +102,7 @@ The vast majority of downloads are from Raspbian (over 90%). As observed with Py
 of the usage switched from Stretch to Buster after its release in July:
 
 <figure class="block-image">
-<img src="images/distro_versions.png" />
+<img src="images/distro_versions.webp" />
 </figure>
 
 There was a noticeable bump of users reporting Raspbian (testing) before Buster was officially
@@ -113,7 +113,7 @@ launched.
 Our busiest hour is between 7pm-8pm. All afternoon/evening UTC we are at our busiest:
 
 <figure class="block-image">
-<img src="images/downloads-day-2019.png" />
+<img src="images/downloads-day-2019.webp" />
 </figure>
 
 ## 2020 vision

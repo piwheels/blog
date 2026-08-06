@@ -93,7 +93,7 @@ appropriate attribute in the simple index (so pip can see it) and added "yanked"
 pages. We also "pre-release" badges:
 
 <figure class="block-image">
-<img src="images/Screenshot-from-2020-07-10-00-18-24.png" />
+<img src="images/Screenshot-from-2020-07-10-00-18-24.webp" />
 </figure>
 
 ## apt dependencies
@@ -125,7 +125,7 @@ Python 2 users downloading universal wheels, but obviously we didn't previously 
 overall usage was. Now we can:
 
 <figure class="block-image">
-<img src="images/py-vers.png" />
+<img src="images/py-vers.webp" />
 </figure>
 
 See more findings in the [2020Q2 stats post](https://blog.piwheels.org/piwheels-stats-2020q2/).
@@ -141,12 +141,12 @@ average, memory usage and disk usage. This makes it much easier to see when a Pi
 the load of a particularly difficult package build.
 
 <figure class="block-image">
-<img src="images/Screenshot-from-2020-08-12-12-35-34.png" />
+<img src="images/Screenshot-from-2020-08-12-12-35-34.webp" />
 <figcaption>Inspecting the main piwheels server</figcaption>
 </figure>
 
 <figure class="block-image">
-<img src="images/Screenshot-from-2020-08-12-12-35-52.png" />
+<img src="images/Screenshot-from-2020-08-12-12-35-52.webp" />
 <figcaption>Inspecting one of the (currently idle) builder Pis</figcaption>
 </figure>
 

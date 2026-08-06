@@ -17,11 +17,11 @@ In 2018, a total of **5,154,233** packages were downloaded, saving users **39 ye
 Usage was steady throughout the year, with a rise in the final quarter:
 
 <figure class="block-image">
-<img src="images/piwheels-2018-daily.png" />
+<img src="images/piwheels-2018-daily.webp" />
 </figure>
 
 <figure class="block-image">
-<img src="images/piwheels-2018-monthly.png" />
+<img src="images/piwheels-2018-monthly.webp" />
 </figure>
 
 Interestingly, the top 50 download days on record have all been since late October!
@@ -77,7 +77,7 @@ Pi 1/Zero users as they don't contain the quad-core CPU found in the Pi 2/3.
 8.  **x86** (2)
 
 <figure class="block-image">
-<img src="images/piwheels-2018-arch.png" />
+<img src="images/piwheels-2018-arch.webp" />
 </figure>
 
 Pi 3 users running a 64-bit operating system (not Raspbian) identify as armv8l, which is fourth in
@@ -94,11 +94,11 @@ By far, most downloads come from Raspbian, particularly Raspbian Stretch. The ne
 Debian Stretch and then various Ubuntu distributions (each significantly smaller):
 
 <figure class="block-image">
-<img src="images/piwheels-2018-os.png" />
+<img src="images/piwheels-2018-os.webp" />
 </figure>
 
 <figure class="block-image">
-<img src="images/piwheels-2018-os-versions.png" />
+<img src="images/piwheels-2018-os-versions.webp" />
 </figure>
 
 Since Raspbian Stretch comes pre-configured with settings for piwheels, but Jessie doesn't, Jessie
@@ -122,7 +122,7 @@ indicates a large Python 2 user base. Remember, kids, [Python 2 EOL](https://pyt
 now **less than a year away**!
 
 <figure class="block-image">
-<img src="images/piwheels-2018-python-version.png" />
+<img src="images/piwheels-2018-python-version.webp" />
 </figure>
 
 ## Time saved
@@ -165,7 +165,7 @@ So what does an average day look like on piwheels? Well here's a graph showing t
 downloads per hour throughout our busiest day of the year:
 
 <figure class="block-image">
-<img src="images/piwheels-2018-day.png" />
+<img src="images/piwheels-2018-day.webp" />
 </figure>
 
 ## On to 2019

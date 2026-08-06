@@ -5,13 +5,13 @@ month** in total!
 Each month had over 500,000 downloads :
 
 <figure class="block-image">
-<img src="images/q2_downloads.png" />
+<img src="images/q2_downloads.webp" />
 </figure>
 
 which saved around 8 years:
 
 <figure class="block-image">
-<img src="images/q2_time_saved.png" />
+<img src="images/q2_time_saved.webp" />
 </figure>
 
 **9 April** had the highest number of downloads with **23,719**.
@@ -32,14 +32,14 @@ The top 10 downloads were:
 Raspbian still dominates usage with over 94%:
 
 <figure class="block-image">
-<img src="images/q2_oss.png" />
+<img src="images/q2_oss.webp" />
 </figure>
 
 armv7l (Pi 2/3 platform) is still a majority architecture with over 88% usage, with armv6l (Pi
 1/Zero) taking just 8.5%. The combined Arm architecture takes over 91% of all usage:
 
 <figure class="block-image">
-<img src="images/q2_archs.png" />
+<img src="images/q2_archs.webp" />
 </figure>
 
 Python version usage changes more over time. As Q2 ended before the release of Raspbian Buster
@@ -47,7 +47,7 @@ Python version usage changes more over time. As Q2 ended before the release of R
 downloads, leaving 3.7 trailing behind even 2.7:
 
 <figure class="block-image">
-<img src="images/q2_py_vers.png" />
+<img src="images/q2_py_vers.webp" />
 </figure>
 
 This was a reasonably quiet period due to piwheels builders being out-of-action for most of the

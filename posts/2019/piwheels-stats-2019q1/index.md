@@ -12,7 +12,7 @@ This brings our totals so far to:
 The number of downloads in this period is *more than double* the same period in 2018.
 
 <figure class="block-image">
-<img src="images/Downloads.png" />
+<img src="images/Downloads.webp" />
 </figure>
 
 There was a record breaking number of downloads in the month of January:
@@ -22,7 +22,7 @@ There was a record breaking number of downloads in the month of January:
 - March: **683,112**
 
 <figure class="block-image">
-<img src="images/Downloads-by-month.png" />
+<img src="images/Downloads-by-month.webp" />
 </figure>
 
 However, February saved users the most time:
@@ -32,7 +32,7 @@ However, February saved users the most time:
 - March: **8 years**
 
 <figure class="block-image">
-<img src="images/Time-saved-in-years-by-month.png" />
+<img src="images/Time-saved-in-years-by-month.webp" />
 </figure>
 
 ## Project pages
@@ -41,7 +41,7 @@ We also recently deployed new project pages so users have a nicer interface when
 information about which packages and versions we have:
 
 <figure class="block-image">
-<a href="https://www.piwheels.org/project/pycparser/"><img src="images/piwheels-project-page.png" /></a>
+<a href="https://www.piwheels.org/project/pycparser/"><img src="images/piwheels-project-page.webp" /></a>
 </figure>
 
 ## Popular packages
@@ -87,7 +87,7 @@ record of x86_64 downloads, and a trace of a few others. But since we only provi
 wheels (not x86 ones), the only x86 (& etc) downloads recorded are pure Python wheels only.
 
 <figure class="block-image">
-<img src="images/Downloads-by-architecture.png" />
+<img src="images/Downloads-by-architecture.webp" />
 </figure>
 
 Raspbian users make up over 95% of our downloads, followed by a 3.7% Debian base, and a tiny slither
@@ -97,7 +97,7 @@ Canonical have started work on officially supporting Ubuntu Desktop and Server f
 sure we'll see a rise in usage in 2019.
 
 <figure class="block-image">
-<img src="images/Downloads-by-OS.png" />
+<img src="images/Downloads-by-OS.webp" />
 </figure>
 
 Similarly, Raspbian Stretch has a 95% share of downloads, followed by Debian Stretch (3.5%) and
@@ -107,7 +107,7 @@ have Python 3.4 wheels, but Jessie is not configured to use piwheels. We don't g
 wheels for Buster, but we will by the time it's released.
 
 <figure class="block-image">
-<img src="images/Downloads-by-distro-version.png" />
+<img src="images/Downloads-by-distro-version.webp" />
 </figure>
 
 Again, unexpectedly, the Python 3 version found in Raspbian Stretch (3.5) sticks out with over 90%
@@ -124,7 +124,7 @@ providing wheels for it. These could be Ubuntu 18.04 users, or Raspbian users wh
 3.6 themselves.
 
 <figure class="block-image">
-<img src="images/Downloads-by-Python-version.png" />
+<img src="images/Downloads-by-Python-version.webp" />
 </figure>
 
 ## What next?

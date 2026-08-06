@@ -5,7 +5,7 @@ used.
 If you've ever been in the situation where you've installed a library but importing it fails,
 it's a pretty unpleasant experience:
 
-![](images/Screenshot-from-2018-09-27-17-51-11.png)
+![](images/Screenshot-from-2018-09-27-17-51-11.webp)
 
 The next step for most people is to Google the error message. But that's a long and slow process
 that often doesn't lead to a successful import.
@@ -87,7 +87,7 @@ sudo apt install libhdf5-100
 That's it! Just rinse and repeat. Once you've made all the missing shared object files available,
 you'll be able to import the module no problem:
 
-![](images/Screenshot-from-2018-09-27-19-41-16.png)
+![](images/Screenshot-from-2018-09-27-19-41-16.webp)
 
 Note that some shared objects can be provided by multiple packages. Sometimes it's obvious which is
 the lighter option, i.e. `libatlas3-base` rather than `libatlas-base-dev` (avoid `-dev` packages if

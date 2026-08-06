@@ -13,7 +13,7 @@ Now, these output logs are browsable by anyone, and they're easily accessible vi
 pages](https://www.piwheels.org/project/numpy/). Just click on the build status icon:
 
 <figure class="block-image">
-<img src="images/Screenshot-from-2022-03-29-21-15-21.png" />
+<img src="images/Screenshot-from-2022-03-29-21-15-21.webp" />
 </figure>
 
 For example:
@@ -29,5 +29,5 @@ we have. Currently we're using it to inform people that [piwheels doesn't yet su
 aarch64](https://github.com/piwheels/packages/issues/119):
 
 <figure class="block-image">
-<img src="images/Screenshot-2022-03-29-at-21-36-20-piwheels-Home-1024x796.png" />
+<img src="images/Screenshot-2022-03-29-at-21-36-20-piwheels-Home-1024x796.webp" />
 </figure>

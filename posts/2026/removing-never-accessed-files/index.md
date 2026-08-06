@@ -11,7 +11,7 @@ piwheels — but only those which have *never* been downloaded, and were built p
 
 Releases with deleted files will be shown on project pages with a new deleted icon:
 
-![](images/deleted.png)
+![](images/deleted.webp)
 
 This allows us to delete files from specific ABI builds, rather than a whole version, so if a cp313
 wheel is popular but a cp39 one is not, we can just delete the cp39 one.

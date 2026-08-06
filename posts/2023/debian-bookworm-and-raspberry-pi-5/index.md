@@ -6,7 +6,7 @@ for cp311 and all [project pages](https://www.piwheels.org/packages.html) should
 availability for each version:
 
 <figure class="block-image">
-<img src="images/Screenshot-from-2023-11-01-10-28-40.png" />
+<img src="images/Screenshot-from-2023-11-01-10-28-40.webp" />
 </figure>
 
 The big change in Bookworm is that you can no longer install packages system-wide using `pip`:
