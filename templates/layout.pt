@@ -15,9 +15,13 @@
     <link rel="alternate" type="application/atom+xml" title="Piwheels blog Atom Feed" href="/atom.xml">
     <meta name="twitter:card" content="summary" />
     <meta name="twitter:site" content="@piwheels" />
-    <meta name="twitter:image" content="${site.config.base_url}/piwheels-logo-large.png" />
     <meta property="og:type" content="website" />
-    <meta property="og:image" content="${site.config.base_url}/piwheels-logo-large.png" />
+
+    <tal:block tal:condition="not (post or page) or ((post and not post.og_image) or (page and not page.og_image))">
+      <meta property="og:image" content="${site.config.base_url}/piwheels-logo-large.webp" />
+      <meta name="twitter:image" content="${site.config.base_url}/piwheels-logo-large.webp" />
+    </tal:block>
+
     <meta metal:define-slot="head" />
   </head>
 
