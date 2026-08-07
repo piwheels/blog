@@ -6,8 +6,8 @@ downloaded recently. This allowed us to keep the regularly downloaded files on S
 to the Raspberry Pi 4 running piwheels.org), and move everything else onto HDD as described in our
 earlier post [File URLs subject to change](/2025/07/notice-file-urls-subject-to-change/).
 
-Now, for the first time ever, we're going to be deleting some files from
-piwheels — but only those which have *never* been downloaded, and were built prior to 2026.
+Now, for the first time ever, we're going to be deleting some files from piwheels — but initially
+only those which have *never* been downloaded, and were built prior to 2026. 
 
 Releases with deleted files will be shown on project pages with a new deleted icon:
 
