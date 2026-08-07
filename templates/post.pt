@@ -28,5 +28,16 @@
         <nav tal:condition="next_post" class="next"><a href="/${next_post.link}" rel="next" tal:content="structure next_post.title"></a> &raquo;</nav>
       </div>
     </div>
+
+    <div class="sidebar">
+      <div>
+        <h3>Archive</h3>
+        <ul>
+          <li><a href="/archive/">All posts</a></li>
+          <li><a href="/tags/">Tags</a></li>
+          <li tal:repeat="year site.archive.keys()"><a href="/${year}/">${year}</a></li>
+        </ul>
+      </div>
+    </div>
   </section>
 </div>
