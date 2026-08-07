@@ -13,7 +13,7 @@
   <section metal:fill-slot="content">
     <div class="content">
       <h2>${title}</h2>
-      <div class="small-12 medium-8 columns post" tal:repeat="post site.posts">
+      <div class="small-12 medium-8 columns post" tal:repeat="post site.posts[:10]">
         <div class="postmeta">
           <time datetime="${post.published.isoformat(timespec='seconds')}" title="${post.published.isoformat(timespec='seconds')}">${post.published.strftime("%-d %B %Y")}</time> by ${post.author}
         </div>
@@ -29,7 +29,7 @@
       <div>
         <h3>Archive</h3>
         <ul>
-          <li><a href="/archive/">All posts</a></li>
+          <li><a href="/archive/">Archive</a></li>
           <li><a href="/tags/">Tags</a></li>
           <li tal:repeat="year site.archive.keys()"><a href="/${year}/">${year}</a></li>
         </ul>
