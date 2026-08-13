@@ -28,3 +28,6 @@ ABIs, so our disk space requirements have only risen over time.
 Our amazing hosts [Mythic Beasts](https://www.mythic-beasts.com/) have supported us all the way,
 providing Pis, VMs and huge disk space allocations. We have to do our best to keep the project
 manageable and sustainable.
+
+**Update 13 August**: we have also begun to delete *large files* which have been rarely downloaded.
+For now we are targeting pure Python wheels only.
